@@ -97,7 +97,7 @@
 
         <div class="text-center text">
             <h1 class="text-2xl font-extrabold p-11 text-white">BAKELI TECHNOLOGY OF SCHOOL</h1>
-            <button type="button" class="py-2.5 px-5 mr-2 mb-2 text-sm font-medium text-white focus:outline-none bg-green-500 rounded-lg border border-gray-200 hover:bg-green-700 hover:text-white-700 focus:z-10 focus:ring-4 focus:ring-gray-200 dark:focus:ring-gray-700 dark:bg-gray-800 dark:text-gray-400 dark:border-gray-600 dark:hover:text-white dark:hover:bg-gray-700">S'INSCRIRE</button>
+            <button type="button" class="py-2.5 px-5 mr-2 mb-2 text-sm font-medium text-white focus:outline-none bg-green-500  border border-gray-200 hover:bg-green-700 hover:text-white-700 focus:z-10 focus:ring-4 focus:ring-gray-200 dark:focus:ring-gray-700 dark:bg-gray-800 dark:text-gray-400 dark:border-gray-600 dark:hover:text-white dark:hover:bg-gray-700">S'INSCRIRE</button>
         </div>
 
     </div>
@@ -110,47 +110,53 @@
 
         <div class="section2 text-center flex items-center justify-center flex-row pt-0 p-11">
             <div class="icons grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-4">
-                <div class="border p-11 text-white">
-                    <i class="bi bi-pc-display text-5xl mb-5"></i>
-                    <p>PROGRAMMATION</p>
+                <div class="border p-5 text-[#EBEBEB]">
+                <img src="/medias/pro.svg" class="mx-auto" alt="">
+                    <p class="text-sm">PROGRAMMATION</p>
                 </div>
-                <div class="border p-11 text-white">
-                    <i class="bi bi-pc-display text-5xl mb-5"></i>
-                    <p>DESIGN</p>
+                <div class="border p-5 text-[#EBEBEB]">
+                <img src="/medias/plume.svg" class="mx-auto" alt="">
+                    <p class="text-sm">DESIGN</p>
                 </div>
-                <div class="border p-11 text-white">
-                    <i class="bi bi-pc-display text-5xl mb-5"></i>
-                    <p>MARKETING DIGITAL</p>
+                <div class="border p-5 text-[#EBEBEB]">
+                <img src="/medias/div.svg" class="mx-auto" alt="">
+                    <p class="text-sm">MARKETING DIGITAL</p>
                 </div>
-                <div class="border p-11 text-white">
-                    <i class="bi bi-pc-display text-5xl mb-5"></i>
-                    <p>ENTREPRENERIAT</p>
+                <div class="border p-5 text-[#EBEBEB]">
+                <img src="/medias/mind.svg" class="mx-auto" alt="">
+  
+                    <p class="text-sm">ENTREPRENERIAT</p>
                 </div>
-                <div class="border p-11 text-white">
-                    <i class="bi bi-pc-display text-5xl mb-5"></i>
-                    <p>DEVELOPPEMENT MOBILE</p>
+                <div class="border p-5 text-[#EBEBEB]">
+                    <img src="/medias/svgggg.svg" class="mx-auto" alt="">
+                    <p class="text-sm">DEVELOPPEMENT MOBILE</p>
                 </div>
             </div>
         </div>
     </div>
 
-    <div id="section3" class="bg-gray-100 p-11">
-        <div class="grid grid-cols-2 gap-2 p-11">
-            <div>
+    <div id="section3" class="bg-gray-100 md:p-11">
+        <div class="grid grid-cols-1  md:grid-cols-2 content-center  gap-2 p-11 relative">
+            <div class=" md:my-auto  ">
                 <p class="font-extrabold text-gray-500 pb-3">BIENVENUE</p>
                 <h1 class="text-2xl font-extrabold text-gray-900 pb-5">BAKELI TECHNOLOGY OF SCHOOL</h1>
-                <p class="tracking-widest w-70 text-gray-500 md:text-lg dark:text-gray-400">Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam accusantium minus repellat temporibus! Dolores tempore architecto quibusdam consectetur fuga laboriosam aspernatur. Minus earum est saepe hic tenetur voluptas facere? Dicta!</p>
-                <button type="button" class="mt-5 py-2.5 px-5 mr-2 mb-2 text-sm font-medium text-white focus:outline-none bg-green-500 rounded-lg  border-orange-500 border-r-4 hover:bg-green-700 hover:text-white-700 focus:z-10 focus:ring-4 focus:ring-gray-200 dark:focus:ring-gray-700 dark:bg-gray-800 dark:text-gray-400 dark:border-gray-600 dark:hover:text-white dark:hover:bg-gray-700">S'INSCRIRE</button>
+                <p class=" w-70 text-gray-500 text-xs lg:text-lg   dark:text-gray-400">We are committed to providing our customers with exceptional service while offering our employees the best training. Lorem Ipsum is simply dummy text of the printing and typesetting industry has been the industry’s standard dummy text ever since the 1500s.</p>
+                <button type="button" class="mt-5 py-2.5 px-5 mr-2 mb-2 text-sm font-medium text-white focus:outline-none bg-green-500   border-orange-500 border-r-4 hover:bg-green-700 hover:text-white-700 focus:z-10 focus:ring-4 focus:ring-gray-200 dark:focus:ring-gray-700 dark:bg-gray-800 dark:text-gray-400 dark:border-gray-600 dark:hover:text-white dark:hover:bg-gray-700">S'INSCRIRE</button>
             </div>
 
-            <div class="bg-white relative">
+<div>
+<img class="h-auto   w-full rounded" src="/medias/meta.png" alt="">
+</div>
+
+
+            <!-- <div class="bg-white ">
                 <div class="bg-orange-500 shadow h-52 absolute w-80 top-8 right-4">
                     <div class=" absolute w-full top-2 right-8">
                         <img class="h-auto max-w-full rounded" src="/medias/rectangle 1515.png" alt="">
                     </div>
                     <div class=" border-green-500 border-4 h-52 absolute w-80 top-8 right-8"></div>
                 </div>
-            </div>
+            </div> -->
         </div>
     </div>
     <!-- <div class=" w-full h-100">
@@ -174,7 +180,7 @@
             </div>
         </div>
     </div> -->
-    <div id="section4" class=" bg-gray-100 h-[600px]">
+    <!-- <div id="section4" class=" bg-gray-100 h-[600px]">
         <div class='text-center relative bg-gray-200 flex items-center justify-center flex-col p-11'>
             <div class="p-11">
                 <p class="font-extrabold text-gray-500 pb-3">HOW DO WE WORKS</p>
@@ -195,7 +201,7 @@
                 </div>
             </div>
         </div>
-    </div>
+    </div> -->
 
     <hr>
 
