@@ -15,8 +15,8 @@
     padding-top: 15%;
 }
 
-#section2{
-    background-image: linear-gradient(rgba(56, 55, 55, 0.54), rgba(56, 55, 55, 0.54)),url('../../public/medias/div.png');
+#section2, #section5{
+    background-image: url('../../public/medias/div.png');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -24,4 +24,13 @@
 .hauteur{
     height: 800px;
 }
+.hauteur2{
+    height: 400px;
+}
 
+#section11{
+    background-image: url('../../public/medias/Rectangle\ 4541.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}

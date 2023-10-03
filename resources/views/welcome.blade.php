@@ -9,7 +9,7 @@
         <!-- Fonts -->
         <link rel="preconnect" href="https://fonts.bunny.net">
         <link href="https://fonts.bunny.net/css?family=figtree:400,600&display=swap" rel="stylesheet" />
-
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
         
         @vite(['resources/css/app.css','resources/js/app.js'])
     </head>
@@ -189,8 +189,8 @@
             </div>
     </div>
 
-    <div id="section2" class='relative'>
-     <div class="section2 text-center flex items-center justify-center flex-row p-11">
+<div id="section5" class='relative'>
+    <div class="section2 text-center flex items-center justify-center flex-row p-11">
         <div class="icons grid grid-cols-4 gap-4 p-11">
             <div class="border-r p-11">
                <p class='text-3xl mb-5 text-white'>8.705</p>
@@ -211,16 +211,211 @@
         </div>
     </div>
 
-    <!-- <div class="absolute p-11 top-60 left-60">
-      <img class="h-auto max-w-full rounded" src="/medias/rectangle 1515.png" alt="">
-      <div class="bg-orange-500 shadow h-52 absolute w-80 bottom-32 right-12">
-
+<div class="hauteur2 bg-gray-100">
+    <div class="absolute p-11 top-60 left-60 grid grid-cols-2">
+      <div>
+        <img class="h-auto max-w-full rounded" src="/medias/rectangle 1515.png" alt="">
       </div>
-    </div> -->
+      <div class="bg-white shadow p-11 absolute w-80 right-72 64 top-28">
+            <h1 class="text-2xl font-extrabold text-gray-900 pb-3">LE COACHING</h1>
+            <p class="tracking-widest pb-5 text-gray-500 md:text-lg dark:text-gray-400">Lorem fficiis ipsa, a et facilis maiores amet quasi, voluptas ratione delectus recusandae totam.</p>
+            <button type="button" class="py-2.5 px-5 mr-2 mb-2 text-sm font-medium text-white focus:outline-none bg-green-500  border-orange-500 border-r-4 hover:bg-green-700 hover:text-white-700 focus:z-10 focus:ring-4 focus:ring-gray-200 dark:hover:text-white dark:hover:bg-green-700">LEARN MORE</button>
+      </div>
+    </div>
+</div>
 
-  </div>
+
+</div>
 
 
+    <div id="section6">
+        <div class='text-center  bg-gray-100 flex items-center justify-center flex-col p-11'>
+            <p class="font-extrabold text-gray-500 pb-3">EQUIPES</p>
+            <h1 class="text-2xl font-extrabold text-gray-900 pb-3">COACHS</h1>
+            <p class="tracking-widest w-80 text-gray-500 md:text-lg dark:text-gray-400">Lorem ipsum dolor sit olores quibusdam conre icta</p>
+        </div>
+
+        <div class="bg-gray-100 p-11 icons grid grid-cols-5 gap-4">
+            <div class="text-center text-gray-500">
+                <img src="/medias/div (3).png" class="max-w-full">
+               <p class='text-gray-900 text-2xl'>njzdn</p>
+               <p>PROGRAMMATION</p>
+               <p class='text-green-500'>
+                <i class="bi bi-facebook mr-3"></i>
+                <i class="bi bi-twitter mr-3"></i>
+                <i class="bi bi-youtube"></i>
+               </p>
+            </div>
+            <div class="text-center text-gray-500">
+                <img src="/medias/div (3).png" class="max-w-full">
+               <p class='text-gray-900 text-2xl'>njzdn</p>
+               <p class=''>DESIGN</p>
+                 <p class='text-green-500'>
+                <i class="bi bi-facebook mr-3"></i>
+                <i class="bi bi-twitter mr-3"></i>
+                <i class="bi bi-youtube"></i>
+               </p>
+            </div>
+            <div class="text-center text-gray-500">
+                <img src="/medias/div (3).png" class="max-w-full">
+               <p class='text-gray-900 text-2xl'>njzdn</p>
+               <p class=''>MARKETING DIGITAL</p>
+                 <p class='text-green-500'>
+                <i class="bi bi-facebook mr-3"></i>
+                <i class="bi bi-twitter mr-3"></i>
+                <i class="bi bi-youtube"></i>
+               </p>
+            </div>
+            <div class="text-center text-gray-500">
+                <img src="/medias/div (3).png" class="max-w-full">
+               <p class='text-gray-900 text-2xl'>njzdn</p>
+               <p class=''>ENTREPRENERIAT</p>
+                 <p class='text-green-500'>
+                <i class="bi bi-facebook mr-3"></i>
+                <i class="bi bi-twitter mr-3"></i>
+                <i class="bi bi-youtube"></i>
+               </p>
+            </div>
+            <div class="text-center text-gray-500">
+                <img src="/medias/div (3).png" class="max-w-full">
+               <p class='text-gray-900 text-2xl'>njzdn</p>
+               <p class=''>DEVELOPPEMENT MOBILE</p>
+                 <p class='text-green-500'>
+                <i class="bi bi-facebook mr-3"></i>
+                <i class="bi bi-twitter mr-3"></i>
+                <i class="bi bi-youtube"></i>
+               </p>
+            </div>
+        </div>
+    </div>
+
+    <div id="section7" class='bg-gray-200 p-11'>
+        <div class='text-center flex items-center justify-center flex-col p-11'>
+            <p class="font-extrabold text-gray-500 pb-3">OUR PORTFOLIO</p>
+            <h1 class="text-2xl font-extrabold text-gray-900 pb-3">NOS PARTENAIRES</h1>
+            <p class="tracking-widest w-80 text-gray-500 md:text-lg dark:text-gray-400">Lorem ipsum dolor sit olores quibusdam conre icta</p>
+        </div>
+
+        <div class="p-28 pt-0 icons grid grid-cols-4 gap-4">
+            <div class="text-center text-gray-500">
+                <img src="/medias/div (4).png" class="max-w-full">
+            </div>
+            <div class="text-center text-gray-500">
+                <img src="/medias/div (4).png" class="max-w-full">
+            </div>
+            <div class="text-center text-gray-500">
+                <img src="/medias/div (4).png" class="max-w-full">
+            </div>
+            <div class="text-center text-gray-500">
+                <img src="/medias/div (4).png" class="max-w-full">
+            </div>
+        </div>
+    </div>
+
+
+<div id="section2">
+    <div class="section2 text-center flex items-center justify-center flex-col p-11">
+        <p class="font-extrabold text-green-500 pb-3">
+        <i class="bi bi-pc-display text-5xl mb-5"></i>
+        </p>
+        <h1 class="text-2xl font-extrabold w-1/2 text-white pb-5">
+            GREAT THINGS IN BUSINESS ARE NEVER DONE BY ONE PERSON.
+            <span class='text-green-500'>
+                THEY'RE DONE BY A TEAM OF PEOPLE
+            </span>
+        </h1>
+        <p class="tracking-widest w-1/3 text-gray-500 md:text-lg dark:text-gray-400">Praesentium ipsam exercitationem consequatur dolorum Praesentium ipsam exercitationem consequatur dolorum.</p>
+    </div>
+</div>
+
+        <div id="section9" class='bg-gray-100'>
+            <div class='text-center flex items-center justify-center flex-col p-11'>
+                <p class="font-extrabold text-gray-500 pb-3">OUR NEWS & ARTICLES </p>
+                <h1 class="text-2xl font-extrabold text-gray-900 pb-3">NOS DERNIERS ARTICLES</h1>
+                <p class="tracking-widest w-80 text-gray-500 md:text-lg dark:text-gray-400">Lorem ipsum dolor sit olores quibusdam conre icta</p>
+            </div>
+            <div class="bg-gray-100 p-28 icons grid grid-cols-3 gap-4">
+            
+<div class="max-w-sm bg-white ">   
+    <div class="p-4">
+        <a href="#">
+            <img class="" src="/medias/div (3).png" alt="" />
+        </a>
+        <a href="#">
+            <h6 class="mb-3 font-bold tracking-tight text-green-500 mt-6">26 Nov</h5>
+        </a>
+        <a href="#">
+            <h5 class="mb-5 text-2xl font-bold tracking-tight text-gray-900">Noteworthy technology acquisitions 2021</h5>
+        </a>
+        <a href="#" class="bg-gray-900 inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white hover:bg-gray-600 focus:ring-4 focus:outline-none focus:ring-gray-900">
+            LEARN MORE
+        </a>
+    </div>
+</div>
+<div class="max-w-sm bg-white">   
+    <div class="p-4">
+        <a href="#">
+            <img class="" src="/medias/div (3).png" alt="" />
+        </a>
+        <a href="#">
+            <h6 class="mb-3 font-bold tracking-tight text-green-500 mt-6">26 Nov</h5>
+        </a>
+        <a href="#">
+            <h5 class="mb-5 text-2xl font-bold tracking-tight text-gray-900">Noteworthy technology acquisitions 2021</h5>
+        </a>
+        <a href="#" class="bg-gray-900 inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white hover:bg-gray-600 focus:ring-4 focus:outline-none focus:ring-gray-900">
+            LEARN MORE
+        </a>
+    </div>
+</div>
+<div class="max-w-sm bg-white">   
+    <div class="p-4">
+        <a href="#">
+            <img class="" src="/medias/div (3).png" alt="" />
+        </a>
+        <a href="#">
+            <h6 class="mb-3 font-bold tracking-tight text-green-500 mt-6">26 Nov</h5>
+        </a>
+        <a href="#">
+            <h5 class="mb-5 text-2xl font-bold tracking-tight text-gray-900">Noteworthy technology acquisitions 2021</h5>
+        </a>
+        <a href="#" class="bg-gray-900 inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white hover:bg-gray-600 focus:ring-4 focus:outline-none focus:ring-gray-900">
+            LEARN MORE
+        </a>
+    </div>
+</div>
+        </div>
+
+        <div id="section11" class="">
+            <div class="flex justify-between p-16">
+                <p class="font-extrabold text-2xl text-white">LET'S GET YOUR PROJECT START!</p>
+                <button type="button" class="py-2.5 px-5 mr-2 mb-2 text-sm font-medium text-white focus:outline-none bg-green-500  border-white border-r-4 hover:bg-green-700 hover:text-white-700">CONTACT-US</button>
+            </div>
+        </div>
+
+        <footer class="bg-black p-11 ">
+            <div class="flex justify-around">
+              <div>
+                <a href="https://flowbite.com/" class="flex items-center mb-5">
+                 <img src="https://flowbite.com/docs/images/logo.svg" class="h-8 mr-3" alt="Flowbite Logo" />
+                </a>
+                <p class="tracking-widest w-80 text-gray-500 md:text-lg dark:text-gray-400">Lorem ipsum dolor sit olores quibusdam conre icta Lorem ipsum dolor sit olores quibusdam conre icta</p>
+              </div>
+              <div>
+                <p class="tracking-widest text-white mb-5">CONTACT</p>
+                <p class="tracking-widest text-gray-500 mb-5">66 Brooklyn Street, <br> New York United Stated America</p>
+                <p class="tracking-widest text-gray-500">P: 666 888 000</p>
+                <p class="tracking-widest text-gray-500">E: needhelp@maiply.com</p>
+              </div>
+              <div>
+                <p class="tracking-widest text-white mb-5">SOCIAL</p>
+                    <p><a href="#" class="text-gray-500 text-1xl"><i class="bi bi-linkedin mr-2 text-white"></i> Linkedin</a></p>
+                    <p><a href="#" class="text-gray-500 text-1xl"><i class="bi bi-facebook mr-2 text-white"></i> Facebook</a></p>
+                    <p><a href="#" class="text-gray-500 text-1xl"><i class="bi bi-youtube mr-2 text-white"></i> Linkdin</a></p>
+              </div>
+            </div>
+
+        </footer>
         
     </body>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/1.8.1/flowbite.min.js"></script>
