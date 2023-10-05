@@ -4,7 +4,7 @@
 
 
 #section1{
-    background-image: linear-gradient(rgba(56, 55, 55, 0.54), rgba(56, 55, 55, 0.54)),url('../../public/medias/header.png');
+    background-image: url('../../public/medias/header.png');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
