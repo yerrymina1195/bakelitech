@@ -3,14 +3,6 @@
 @tailwind utilities;
 
 
-#section1{
-    background-image: url('../../public/medias/header.png');
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 650px;
-}
-
 .text{
     padding-top: 15%;
 }
@@ -42,4 +34,20 @@
   
 
 
-  
+.hauteurCarousel{
+    height: 700px;
+  }
+@media (max-width: 650px) {
+    .hauteurCarousel{
+        height: 500px;
+      }
+}
+
+
+
+
+
+
+
+
+

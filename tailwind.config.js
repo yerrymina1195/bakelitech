@@ -11,6 +11,9 @@ export default {
     extend: {
       colors:{
         'mamso':'rgba(0, 150, 136, 0.8)',
+      },
+      backgroundColor:{
+        'bg1': '#009688',
       }
     },
   },
