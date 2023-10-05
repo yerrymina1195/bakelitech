@@ -8,7 +8,11 @@ export default {
     "./node_modules/flowbite/**/*.js"
   ],
   theme: {
-    extend: {},
+    extend: {
+      colors:{
+        'mamso':'rgba(0, 150, 136, 0.8)',
+      }
+    },
   },
   plugins: [
       require('flowbite/plugin')
