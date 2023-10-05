@@ -121,7 +121,7 @@
 
     </div>
 
-    <div id="section2">
+    <div id="section2" class="p-11">
         <div class="section2 text-center flex items-center justify-center flex-col p-11">
             <p class="font-extrabold text-green-500 pb-3">Filieres</p>
             <h1 class="text-2xl font-extrabold text-white pb-5">DOMAINES DE FORMATIONS</h1>
@@ -161,7 +161,7 @@
                 <p class="font-extrabold text-gray-500 pb-3">BIENVENUE</p>
                 <h1 class="text-2xl font-extrabold text-gray-900 pb-5">BAKELI TECHNOLOGY OF SCHOOL</h1>
                 <p class=" w-70 text-gray-500 text-xs lg:text-lg   dark:text-gray-400">We are committed to providing our customers with exceptional service while offering our employees the best training. Lorem Ipsum is simply dummy text of the printing and typesetting industry has been the industry’s standard dummy text ever since the 1500s.</p>
-                <button type="button" class="mt-5 py-2.5 px-5 mr-2 mb-2 text-sm font-medium text-white focus:outline-none bg-green-500   border-orange-500 border-r-4 hover:bg-green-700 hover:text-white-700 focus:z-10 focus:ring-4 focus:ring-gray-200 dark:focus:ring-gray-700 dark:bg-gray-800 dark:text-gray-400 dark:border-gray-600 dark:hover:text-white dark:hover:bg-gray-700">S'INSCRIRE</button>
+                <button type="button" class="mt-5 py-2.5 px-5 mr-2 mb-2 text-sm font-medium text-white focus:outline-none bg-green-500   border-orange-500 border-r-4 hover:bg-green-700 hover:text-white-700">S'INSCRIRE</button>
             </div>
 
 <div>
@@ -233,44 +233,44 @@
 
         <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-3  gap-4 w-3/4 lg:p-11">
             <div class="relative">
-                <img class="h-72 max-w-full" src="https://flowbite.s3.amazonaws.com/docs/gallery/square/image.jpg" alt="">
+                <img class="h-72 w-full" src="/medias/div (10).png" alt="">
                 <div class="absolute text-start p-1 bottom-6 left-3 bg-mamso">
                     <p class="font-medium text-white">Graphic 1</p>
                     <h1 class="font-light text-1xl  text-white">DESIGN STYLES</h1>
                 </div>
             </div>
             <div class="relative">
-                <img class="h-72 max-w-full" src="https://flowbite.s3.amazonaws.com/docs/gallery/square/image.jpg" alt="">
+                <img class="h-72 w-full" src="/medias/div (12).png" alt="">
                 <div class="absolute text-start p-1 bottom-6 left-3 bg-mamso">
-                    <p class="font-medium text-white">Graphic 1</p>
+                    <p class="font-medium text-white">Graphic 2</p>
                     <h1 class="font-light text-1xl  text-white">DESIGN STYLES</h1>
                 </div>
             </div>
             <div class="relative">
-                <img class="h-72 max-w-full" src="https://flowbite.s3.amazonaws.com/docs/gallery/square/image.jpg" alt="">
+                <img class="h-72 w-full" src="/medias/div (13).png" alt="">
                 <div class="absolute text-start p-1 bottom-6 left-3 bg-mamso">
-                    <p class="font-medium text-white">Graphic 1</p>
+                    <p class="font-medium text-white">Graphic 3</p>
                     <h1 class="font-light text-1xl  text-white">DESIGN STYLES</h1>
                 </div>
             </div>
             <div class="relative">
-                <img class="h-72 max-w-full" src="https://flowbite.s3.amazonaws.com/docs/gallery/square/image.jpg" alt="">
+                <img class="h-72 w-full" src="/medias/div (6).png" alt="">
                 <div class="absolute text-start p-1 bottom-6 left-3 bg-mamso">
-                    <p class="font-medium text-white">Graphic 1</p>
+                    <p class="font-medium text-white">Graphic 4</p>
                     <h1 class="font-light text-1xl  text-white">DESIGN STYLES</h1>
                 </div>
             </div>
             <div class="relative">
-                <img class="h-72 max-w-full" src="https://flowbite.s3.amazonaws.com/docs/gallery/square/image.jpg" alt="">
+                <img class="h-72 w-full" src="/medias/div (5).png" alt="">
                 <div class="absolute text-start p-1 bottom-6 left-3 bg-mamso">
-                    <p class="font-medium text-white">Graphic 1</p>
+                    <p class="font-medium text-white">Graphic 5</p>
                     <h1 class="font-light text-1xl  text-white">DESIGN STYLES</h1>
                 </div>
             </div>
             <div class="relative">
-                <img class="h-72 max-w-full" src="https://flowbite.s3.amazonaws.com/docs/gallery/square/image.jpg" alt="">
+                <img class="h-72 w-full" src="/medias/div (11).png" alt="">
                 <div class="absolute text-start p-1 bottom-6 left-3 bg-mamso">
-                    <p class="font-medium text-white">Graphic 1</p>
+                    <p class="font-medium text-white">Graphic 6</p>
                     <h1 class="font-light text-1xl  text-white">DESIGN STYLES</h1>
                 </div>
             </div>
@@ -302,7 +302,7 @@
 <div class="hauteur2 bg-gray-100">
     <div class="absolute p-11 top-60 left-60 grid grid-cols-2">
       <div>
-        <img class="h-auto max-w-full rounded" src="/medias/rectangle 1515.png" alt="">
+        <img class="h-auto max-w-full rounded" src="/medias/CHRIST.png" alt="">
       </div>
       <div class="bg-white shadow p-11 absolute w-80 right-72 64 top-28">
             <h1 class="text-2xl font-extrabold text-gray-900 pb-3">LE COACHING</h1>
@@ -325,8 +325,8 @@
 
         <div class="bg-gray-100 p-11 icons grid grid-cols-5 gap-4">
             <div class="text-center text-gray-500">
-                <img src="/medias/div (3).png" class="max-w-full">
-               <p class='text-gray-900 text-2xl'>njzdn</p>
+                <img src="/medias/ABOU.png" class="max-w-full">
+               <p class='text-gray-900 text-2xl'>ABOU</p>
                <p>PROGRAMMATION</p>
                <p class='text-green-500'>
                 <i class="bi bi-facebook mr-3"></i>
@@ -335,8 +335,8 @@
                </p>
             </div>
             <div class="text-center text-gray-500">
-                <img src="/medias/div (3).png" class="max-w-full">
-               <p class='text-gray-900 text-2xl'>njzdn</p>
+                <img src="/medias/NDIAGA.png" class="max-w-full">
+               <p class='text-gray-900 text-2xl'>NDIAGA</p>
                <p class=''>DESIGN</p>
                  <p class='text-green-500'>
                 <i class="bi bi-facebook mr-3"></i>
@@ -345,8 +345,8 @@
                </p>
             </div>
             <div class="text-center text-gray-500">
-                <img src="/medias/div (3).png" class="max-w-full">
-               <p class='text-gray-900 text-2xl'>njzdn</p>
+                <img src="/medias/AMADOU.png" class="max-w-full">
+               <p class='text-gray-900 text-2xl'>AMADOU</p>
                <p class=''>MARKETING DIGITAL</p>
                  <p class='text-green-500'>
                 <i class="bi bi-facebook mr-3"></i>
@@ -356,7 +356,7 @@
             </div>
             <div class="text-center text-gray-500">
                 <img src="/medias/div (3).png" class="max-w-full">
-               <p class='text-gray-900 text-2xl'>njzdn</p>
+               <p class='text-gray-900 text-2xl'>OUSSEYNOU</p>
                <p class=''>ENTREPRENERIAT</p>
                  <p class='text-green-500'>
                 <i class="bi bi-facebook mr-3"></i>
@@ -365,8 +365,8 @@
                </p>
             </div>
             <div class="text-center text-gray-500">
-                <img src="/medias/div (3).png" class="max-w-full">
-               <p class='text-gray-900 text-2xl'>njzdn</p>
+                <img src="/medias/DIENABA.png" class="max-w-full">
+               <p class='text-gray-900 text-2xl'>DIENABA</p>
                <p class=''>DEVELOPPEMENT MOBILE</p>
                  <p class='text-green-500'>
                 <i class="bi bi-facebook mr-3"></i>
@@ -401,7 +401,7 @@
     </div>
 
 
-<div id="section2">
+<div id="section22" class="p-11">
     <div class="section2 text-center flex items-center justify-center flex-col p-11">
         <p class="font-extrabold text-green-500 pb-3">
         <i class="bi bi-pc-display text-5xl mb-5"></i>
@@ -416,7 +416,7 @@
     </div>
 </div>
 
-        <div id="section9" class='bg-gray-100'>
+        <div id="section9" class='bg-gray-100 pt-0 p-11'>
             <div class='text-center flex items-center justify-center flex-col p-11'>
                 <p class="font-extrabold text-gray-500 pb-3">OUR NEWS & ARTICLES </p>
                 <h1 class="text-2xl font-extrabold text-gray-900 pb-3">NOS DERNIERS ARTICLES</h1>
@@ -424,27 +424,11 @@
             </div>
             <div class="bg-gray-100 p-28 icons grid grid-cols-3 gap-4">
             
-<div class="max-w-sm bg-white ">   
-    <div class="p-4">
-        <a href="#">
-            <img class="" src ="/medias/div (3).png" alt="" />
-        </a>
-        <a href="#">
-            <h6 class="mb-3 font-bold tracking-tight text-green-500 mt-6">26 Nov</h5>
-        </a>
-        <a href="#">
-            <h5 class="mb-5 text-2xl font-bold tracking-tight text-gray-900">Noteworthy technology acquisitions 2021</h5>
-        </a>
-        <a href="#" class="bg-gray-900 inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white hover:bg-gray-600 focus:ring-4 focus:outline-none focus:ring-gray-900">
-            LEARN MORE
-        </a>
-    </div>
-</div>
-<div class="max-w-sm bg-white">   
-    <div class="p-4">
-        <a href="#">
-            <img class="" src="/medias/div (3).png" alt="" />
-        </a>
+<div class="w-full bg-white">   
+<a href="#">
+            <img class="w-full" src ="/medias/BABA&YACINE.png" alt="" />
+        </a>    
+<div class="p-4">
         <a href="#">
             <h6 class="mb-3 font-bold tracking-tight text-green-500 mt-6">26 Nov</h5>
         </a>
@@ -456,11 +440,27 @@
         </a>
     </div>
 </div>
-<div class="max-w-sm bg-white">   
-    <div class="p-4">
+<div class="w-full bg-white">   
+<a href="#">
+            <img class="w-full" src="/medias/KANKOUBA.png" alt="" />
+        </a>    
+<div class="p-4">
         <a href="#">
-            <img class="" src="/medias/div (3).png" alt="" />
+            <h6 class="mb-3 font-bold tracking-tight text-green-500 mt-6">26 Nov</h5>
         </a>
+        <a href="#">
+            <h5 class="mb-5 text-2xl font-bold tracking-tight text-gray-900">Noteworthy technology acquisitions 2021</h5>
+        </a>
+        <a href="#" class="bg-gray-900 inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white hover:bg-gray-600 focus:ring-4 focus:outline-none focus:ring-gray-900">
+            LEARN MORE
+        </a>
+    </div>
+</div>
+<div class="w-full bg-white">   
+<a href="#">
+            <img class="w-full" src="/medias/ATELIER.png" alt="" />
+        </a>    
+<div class="p-4">
         <a href="#">
             <h6 class="mb-3 font-bold tracking-tight text-green-500 mt-6">26 Nov</h5>
         </a>
@@ -473,7 +473,7 @@
     </div>
 </div>
         </div>
-
+                            </div>
         <div id="section11" class="">
             <div class="flex justify-between flex-wrap p-16">
                 <p class="font-extrabold text-2xl text-white">LET'S GET YOUR PROJECT START!</p>
@@ -510,25 +510,122 @@
 
 
   
-  
+<div id="default-carousel" class="relative w-full" data-carousel="slide">
+    <!-- Carousel wrapper -->
+    <div class="relative h-56 overflow-hidden rounded-lg md:h-96">
+         <!-- Item 1 -->
+        <div class="hidden duration-700 ease-in-out" data-carousel-item>
+            <div class="bg-gray-100 p-11 icons grid grid-cols-5 gap-4">
+            <div class="text-center text-gray-500">
+                <img src="/medias/ABOU.png" class="max-w-full">
+               <p class='text-gray-900 text-2xl'>ABOU</p>
+               <p>PROGRAMMATION</p>
+               <p class='text-green-500'>
+                <i class="bi bi-facebook mr-3"></i>
+                <i class="bi bi-twitter mr-3"></i>
+                <i class="bi bi-youtube"></i>
+               </p>
+            </div>
+            <div class="text-center text-gray-500">
+                <img src="/medias/NDIAGA.png" class="max-w-full">
+               <p class='text-gray-900 text-2xl'>NDIAGA</p>
+               <p class=''>DESIGN</p>
+                 <p class='text-green-500'>
+                <i class="bi bi-facebook mr-3"></i>
+                <i class="bi bi-twitter mr-3"></i>
+                <i class="bi bi-youtube"></i>
+               </p>
+            </div>
+            <div class="text-center text-gray-500">
+                <img src="/medias/AMADOU.png" class="max-w-full">
+               <p class='text-gray-900 text-2xl'>AMADOU</p>
+               <p class=''>MARKETING DIGITAL</p>
+                 <p class='text-green-500'>
+                <i class="bi bi-facebook mr-3"></i>
+                <i class="bi bi-twitter mr-3"></i>
+                <i class="bi bi-youtube"></i>
+               </p>
+            </div>
+            <div class="text-center text-gray-500">
+                <img src="/medias/div (3).png" class="max-w-full">
+               <p class='text-gray-900 text-2xl'>OUSSEYNOU</p>
+               <p class=''>ENTREPRENERIAT</p>
+                 <p class='text-green-500'>
+                <i class="bi bi-facebook mr-3"></i>
+                <i class="bi bi-twitter mr-3"></i>
+                <i class="bi bi-youtube"></i>
+               </p>
+            </div>
+            <div class="text-center text-gray-500">
+                <img src="/medias/DIENABA.png" class="max-w-full">
+               <p class='text-gray-900 text-2xl'>DIENABA</p>
+               <p class=''>DEVELOPPEMENT MOBILE</p>
+                 <p class='text-green-500'>
+                <i class="bi bi-facebook mr-3"></i>
+                <i class="bi bi-twitter mr-3"></i>
+                <i class="bi bi-youtube"></i>
+               </p>
+            </div>
+        </div>
+        </div>
+        <!-- Item 2 -->
+        <div class="hidden duration-700 ease-in-out" data-carousel-item>
+            <div class="bg-gray-100 p-11 icons grid grid-cols-5 gap-4">
+            <div class="text-center text-gray-500">
+                <img src="/medias/ABOU.png" class="max-w-full">
+               <p class='text-gray-900 text-2xl'>ABOU</p>
+               <p>PROGRAMMATION</p>
+               <p class='text-green-500'>
+                <i class="bi bi-facebook mr-3"></i>
+                <i class="bi bi-twitter mr-3"></i>
+                <i class="bi bi-youtube"></i>
+               </p>
+            </div>
+            <div class="text-center text-gray-500">
+                <img src="/medias/NDIAGA.png" class="max-w-full">
+               <p class='text-gray-900 text-2xl'>NDIAGA</p>
+               <p class=''>DESIGN</p>
+                 <p class='text-green-500'>
+                <i class="bi bi-facebook mr-3"></i>
+                <i class="bi bi-twitter mr-3"></i>
+                <i class="bi bi-youtube"></i>
+               </p>
+            </div>
+            <div class="text-center text-gray-500">
+                <img src="/medias/AMADOU.png" class="max-w-full">
+               <p class='text-gray-900 text-2xl'>AMADOU</p>
+               <p class=''>MARKETING DIGITAL</p>
+                 <p class='text-green-500'>
+                <i class="bi bi-facebook mr-3"></i>
+                <i class="bi bi-twitter mr-3"></i>
+                <i class="bi bi-youtube"></i>
+               </p>
+            </div>
+            <div class="text-center text-gray-500">
+                <img src="/medias/div (3).png" class="max-w-full">
+               <p class='text-gray-900 text-2xl'>OUSSEYNOU</p>
+               <p class=''>ENTREPRENERIAT</p>
+                 <p class='text-green-500'>
+                <i class="bi bi-facebook mr-3"></i>
+                <i class="bi bi-twitter mr-3"></i>
+                <i class="bi bi-youtube"></i>
+               </p>
+            </div>
+            <div class="text-center text-gray-500">
+                <img src="/medias/DIENABA.png" class="max-w-full">
+               <p class='text-gray-900 text-2xl'>DIENABA</p>
+               <p class=''>DEVELOPPEMENT MOBILE</p>
+                 <p class='text-green-500'>
+                <i class="bi bi-facebook mr-3"></i>
+                <i class="bi bi-twitter mr-3"></i>
+                <i class="bi bi-youtube"></i>
+               </p>
+            </div>
+        </div>
+        </div>
+    </div>
+</div>
 
-
-
-
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/1.8.1/flowbite.min.js"></script>
-
-
-        <!-- ACTIVE-LINK / ANCRE -->
-        <!-- <script>
-            const links = document.querySelectorAll('a');
-
-            links.forEach(link => {
-                link.addEventListener('click', () => {
-                links.forEach(link => link.classList.remove('active'));
-                link.classList.add('active');
-                });
-            });
-       </script> -->
 
 
 

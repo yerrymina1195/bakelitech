@@ -13,6 +13,12 @@
     background-repeat: no-repeat;
     background-size: cover;
 }
+#section22{
+    background-image: linear-gradient(rgba(40, 39, 39, 0.8), rgba(40, 39, 39, 0.8)), url('../../public/medias/LITTLEBANNER.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
 .hauteur{
     height: 800px;
 }
@@ -42,7 +48,6 @@
         height: 500px;
       }
 }
-
 
 
 
