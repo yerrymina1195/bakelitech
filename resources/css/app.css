@@ -48,8 +48,18 @@
         height: 500px;
       }
 }
-
-
+.splide{
+    background-color: rgb(241 245 249) !important;
+}
+.splide_slide_focus{
+  
+    background-color: aqua !important;
+ 
+}
+/* .splide__slide img {
+    background-color: brown !important;
+  } */
+  
 
 
 
