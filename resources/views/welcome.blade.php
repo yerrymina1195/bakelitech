@@ -11,7 +11,7 @@
             color: brown;
         }
     </style>
-
+  <script defer src="https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js"></script>
 
     @vite(['resources/css/app.css','resources/js/app.js'])
 </head>
@@ -20,24 +20,26 @@
     <!-- <div id="section1" class=" bg-white"> -->
     <div id="gallery" class="relative w-full" data-carousel="slide">
         <!-- Carousel wrapper -->
-        <div class="relative hauteurCarousel overflow-hidden">
+        <div class="relative  h-96 md:h-[700px] overflow-hidden">
             <!-- Item 1 -->
             <div class="duration-700 ease-in-out" data-carousel-item="active">
-                <img src="/medias/header.png" class="absolute block max-w-full hauteurCarousel -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="">
+                <img src="/medias/banner/myfact3.png" class="absolute block w-full h-96 md:h-[700px] -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="">
             </div>
             <!-- Item 2 -->
             <div class="duration-700 ease-in-out" data-carousel-item="">
-                <img src="/medias/header.png" class="absolute block max-w-full hauteurCarousel -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="">
+                <img src="/medias/banner/myfact1.png" class="absolute block w-full h-96 md:h-[700px] -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="">
             </div>
             <!-- Item 3 -->
             <div class="duration-700 ease-in-out" data-carousel-item="">
-                <img src="/medias/header.png" class="absolute block max-w-full hauteurCarousel -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="">
+                <img src="/medias/banner/myfact2.png" class="absolute block w-full h-96 md:h-[700px] -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="">
             </div>
         </div>
         <!-- Slider controls -->
         <!-- <button type="button" class="absolute top-0 left-0 z-30 flex items-center justify-center h-full px-4 cursor-pointer group focus:outline-none" data-carousel-prev> -->
        <div class='absolute top-0 z-30 w-full'>
-       <nav class="bg-transparent border-gray-200 ">
+        <div x-data="{ atTop: false }">
+       <nav class=" fixed w-full  bg-transparent border-gray-200 "   :class="{ 'shadow-lg': atTop, 'bg-transparent text-white': !atTop, 'bg-white text-indigo-800': atTop }"
+        @scroll.window="atTop = (window.pageYOffset < 50) ? false: true">
         <!-- <nav class="bg-transparent"> -->
             <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
                 <a href="https://flowbite.com/" class="flex items-center">
@@ -112,6 +114,7 @@
                 </div>
             </div>
         </nav>
+        </div>
 
         <div class="text-center text">
             <h1 class="text-3xl font-bold p-11 text-white">BAKELI TECHNOLOGY OF SCHOOL</h1>
@@ -129,7 +132,7 @@
         </div>
 
         <div class="section2 text-center flex items-center justify-center flex-row pt-0 p-11">
-            <div class="icons grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-4">
+            <div class="icons grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-4 gap-4">
                 <div class="border p-5 text-[#EBEBEB]">
                 <img src="/medias/pro.svg" class="mx-auto" alt="">
                     <p class="text-sm">PROGRAMMATION</p>
@@ -147,10 +150,10 @@
   
                     <p class="text-sm">ENTREPRENERIAT</p>
                 </div>
-                <div class="border p-5 text-[#EBEBEB]">
+                <!-- <div class="border p-5 text-[#EBEBEB]">
                     <img src="/medias/svgggg.svg" class="mx-auto" alt="">
                     <p class="text-sm">DEVELOPPEMENT MOBILE</p>
-                </div>
+                </div> -->
             </div>
         </div>
     </div>
@@ -279,7 +282,7 @@
 
     <div id="section2" class='relative'>
         <div class="section2 text-center flex items-center justify-center flex-row p-11">
-            <div class="icons grid grid-cols-4 gap-4 p-11">
+            <div class="icons grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-4 gap-4 lg:p-11">
                 <div class="border-r p-11">
                     <p class='text-3xl mb-5 text-white'>8.705</p>
                     <p class='text-gray-500'>PROJECT COMPLETED</p>
@@ -299,12 +302,13 @@
             </div>
         </div>
 
-<div class="hauteur2 bg-gray-100">
-    <div class="absolute p-11 top-60 left-60 grid grid-cols-2">
-      <div>
-        <img class="h-auto max-w-full rounded" src="/medias/CHRIST.png" alt="">
+<div class="p-3 h-auto  bg-red-600">
+    <!-- <div class="absolute p-11 top-60 left-60 grid grid-cols-2"> -->
+        <div class="md:p-11 justify-center items-center  relative md:-translate-y-28 flex flex-col md:flex-row">
+      <div class="bg-indigo-600 ">
+        <img class=" h-60 md:h-96 w-full md:max-w-full mx-auto " src="/medias/CHRIST.png" alt="">
       </div>
-      <div class="bg-white shadow p-11 absolute w-80 right-72 64 top-28">
+      <div class="bg-white h-auto w-full shadow p-11 md:-translate-x-28 md:translate-y-12  md:w-2/5  md:h-4/6 ">
             <h1 class="text-2xl font-extrabold text-gray-900 pb-3">LE COACHING</h1>
             <p class="tracking-widest pb-5 text-gray-500 md:text-lg dark:text-gray-400">Lorem fficiis ipsa, a et facilis maiores amet quasi, voluptas ratione delectus recusandae totam.</p>
             <button type="button" class="py-2.5 px-5 mr-2 mb-2 text-sm font-medium text-white focus:outline-none bg-green-500  border-orange-500 border-r-4 hover:bg-green-700 hover:text-white-700 focus:z-10 focus:ring-4 focus:ring-gray-200 dark:hover:text-white dark:hover:bg-green-700">LEARN MORE</button>
