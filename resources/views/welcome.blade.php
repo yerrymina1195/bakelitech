@@ -125,7 +125,7 @@ https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css" rel
 
     </div>
 
-    <div id="section2" class="p-11">
+    <div class="p-11 bg-black">
         <div class="section2 text-center flex items-center justify-center flex-col p-11">
             <p class="font-extrabold text-green-500 pb-3">Filieres</p>
             <h1 class="text-2xl font-extrabold text-white pb-5">DOMAINES DE FORMATIONS</h1>
@@ -281,7 +281,7 @@ https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css" rel
         </div>
     </div>
 
-    <div id="section2" class='relative'>
+    <div class='relative bg-black'>
         <div class="section2 text-center flex items-center justify-center flex-row p-11">
             <div class="icons grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-4 gap-4 lg:p-11">
                 <div class=" p-11">
@@ -321,7 +321,7 @@ https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css" rel
     </div>
 
 
-    <div id="section6" >
+    <div id="section6">
         <div class='text-center  bg-gray-100 flex items-center justify-center flex-col p-11'>
             <p class="font-extrabold text-gray-500 pb-3">EQUIPES</p>
             <h1 class="text-2xl font-extrabold text-gray-900 pb-3">COACHS</h1>
@@ -329,128 +329,128 @@ https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css" rel
         </div>
 
         <section class="splide py-11 bg-black" aria-labelledby="carousel-heading">
-  
 
-  <div class="splide__track">
-		<div class="splide__list">
-		
-            <div class="splide__slide flex flex-col justify-center cursor-pointer  group items-center  text-gray-500 ">
-                <img src="/medias/ABOU.png" class="max-w-full group-hover:hidden">
-                <img src="/medias/ABOU1.png" class="max-w-full hidden group-hover:block">
-                <p class='text-gray-900 text-2xl'>ABOU</p>
-                <p>PROGRAMMATION</p>
-                <p class='text-green-500'>
-                    <i class="bi bi-facebook mr-3"></i>
-                    <i class="bi bi-twitter mr-3"></i>
-                    <i class="bi bi-youtube"></i>
-                </p>
-            </div>
-            <div class="text-center flex flex-col justify-center cursor-pointer  group items-center text-gray-500 splide__slide ">
-                <img src="/medias/NDIAGA.png" class="max-w-full group-hover:hidden ">
-                <img src="/medias/NDIAGA1.png" class="max-w-full hidden group-hover:block ">
-                <p class='text-gray-900 text-2xl'>NDIAGA</p>
-                <p class=''>DESIGN</p>
-                <p class='text-green-500'>
-                    <i class="bi bi-facebook mr-3"></i>
-                    <i class="bi bi-twitter mr-3"></i>
-                    <i class="bi bi-youtube"></i>
-                </p>
-            </div>
-            <div class="text-center flex flex-col justify-center cursor-pointer  group items-center text-gray-500 splide__slide ">
-                <img src="/medias/AMADOU.png" class="max-w-full group-hover:hidden ">
-                <img src="/medias/AMADOU1.png" class="max-w-full hidden group-hover:block ">
-                <p class='text-gray-900 text-2xl'>AMADOU</p>
-                <p class=''>MARKETING DIGITAL</p>
-                <p class='text-green-500'>
-                    <i class="bi bi-facebook mr-3"></i>
-                    <i class="bi bi-twitter mr-3"></i>
-                    <i class="bi bi-youtube"></i>
-                </p>
-            </div>
-            <div class="text-center flex flex-col justify-center cursor-pointer  group items-center text-gray-500 splide__slide ">
-                <img src="/medias/div (3).png" class="max-w-full group-hover:hidden ">
-                <img src="/medias/div1.png" class="max-w-full hidden group-hover:block ">
-                <p class='text-gray-900 text-2xl'>OUSSEYNOU</p>
-                <p class=''>ENTREPRENERIAT</p>
-                <p class='text-green-500'>
-                    <i class="bi bi-facebook mr-3"></i>
-                    <i class="bi bi-twitter mr-3"></i>
-                    <i class="bi bi-youtube"></i>
-                </p>
-            </div>
-            <div class="text-center flex flex-col justify-center cursor-pointer  group items-center text-gray-500 splide__slide ">
-                <img src="/medias/DIENABA.png" class="max-w-full group-hover:hidden ">
-                <img src="/medias/DIENABA1.png" class="max-w-full hidden group-hover:block">
-                <p class='text-gray-900 text-2xl'>DIENABA</p>
-                <p class=''>DEVELOPPEMENT MOBILE</p>
-                <p class='text-green-500'>
-                    <i class="bi bi-facebook mr-3"></i>
-                    <i class="bi bi-twitter mr-3"></i>
-                    <i class="bi bi-youtube"></i>
-                </p>
-            </div>
-            <div class="splide__slide flex flex-col justify-center cursor-pointer  group items-center  text-gray-500 ">
-                <img src="/medias/ALKALY.png" class="max-w-full group-hover:hidden">
-                <img src="/medias/ALKALY1.png" class="max-w-full hidden group-hover:block">
-                <p class='text-gray-900 text-2xl'>ABOU</p>
-                <p>PROGRAMMATION</p>
-                <p class='text-green-500'>
-                    <i class="bi bi-facebook mr-3"></i>
-                    <i class="bi bi-twitter mr-3"></i>
-                    <i class="bi bi-youtube"></i>
-                </p>
-            </div>
-            <div class="text-center flex flex-col justify-center cursor-pointer  group items-center text-gray-500 splide__slide ">
-                <img src="/medias/MAHMOUD.png" class="max-w-full group-hover:hidden">
-                <img src="/medias/MAHMOUD1.png" class="max-w-full hidden group-hover:block">
-                <p class='text-gray-900 text-2xl'>NDIAGA</p>
-                <p class=''>DESIGN</p>
-                <p class='text-green-500'>
-                    <i class="bi bi-facebook mr-3"></i>
-                    <i class="bi bi-twitter mr-3"></i>
-                    <i class="bi bi-youtube"></i>
-                </p>
-            </div>
-             <div class="text-center flex flex-col justify-center cursor-pointer  group items-center text-gray-500 splide__slide ">
-                <img src="/medias/FATOU.png" class="max-w-full group-hover:hidden">
-                <img src="/medias/FATOU1.png" class="max-w-full  hidden group-hover:block">
-                <p class='text-gray-900 text-2xl'>AMADOU</p>
-                <p class=''>MARKETING DIGITAL</p>
-                <p class='text-green-500'>
-                    <i class="bi bi-facebook mr-3"></i>
-                    <i class="bi bi-twitter mr-3"></i>
-                    <i class="bi bi-youtube"></i>
-                </p>
-            </div>
-            <div class="text-center flex flex-col justify-center cursor-pointer  group items-center text-gray-500 splide__slide ">
-                <img src="/medias/DAOUDA.png" class="max-w-full group-hover:hidden">
-                <img src="/medias/DAOUDA1.png" class="max-w-full  hidden group-hover:block">
-                <p class='text-gray-900 text-2xl'>OUSSEYNOU</p>
-                <p class=''>ENTREPRENERIAT</p>
-                <p class='text-green-500'>
-                    <i class="bi bi-facebook mr-3"></i>
-                    <i class="bi bi-twitter mr-3"></i>
-                    <i class="bi bi-youtube"></i>
-                </p>
-            </div>
-            <div class="text-center flex flex-col justify-center cursor-pointer group items-center  text-gray-500 splide__slide ">
-                <img src="/medias/JESUS.png" class="max-w-full group-hover:hidden ">
-                <img src="/medias/JESUS1.png" class="max-w-full hidden  group-hover:block ">
-                <p class='text-gray-900 text-2xl'>DIENABA</p>
-                <p class=''>DEVELOPPEMENT MOBILE</p>
-                <p class='text-green-500'>
-                    <i class="bi bi-facebook mr-3"></i>
-                    <i class="bi bi-twitter mr-3"></i>
-                    <i class="bi bi-youtube"></i>
-                </p>
-            </div>
-          
-		</div>
-        
-  </div>
-</section>
 
-<!-- 
+            <div class="splide__track">
+                <div class="splide__list">
+
+                    <div class="splide__slide flex flex-col justify-center cursor-pointer  group items-center  text-gray-500 ">
+                        <img src="/medias/ABOU.png" class="max-w-full group-hover:hidden">
+                        <img src="/medias/ABOU1.png" class="max-w-full hidden group-hover:block">
+                        <p class='text-gray-900 text-2xl'>ABOU</p>
+                        <p>PROGRAMMATION</p>
+                        <p class='text-green-500'>
+                            <i class="bi bi-facebook mr-3"></i>
+                            <i class="bi bi-twitter mr-3"></i>
+                            <i class="bi bi-youtube"></i>
+                        </p>
+                    </div>
+                    <div class="text-center flex flex-col justify-center cursor-pointer  group items-center text-gray-500 splide__slide ">
+                        <img src="/medias/NDIAGA.png" class="max-w-full group-hover:hidden ">
+                        <img src="/medias/NDIAGA1.png" class="max-w-full hidden group-hover:block ">
+                        <p class='text-gray-900 text-2xl'>NDIAGA</p>
+                        <p class=''>DESIGN</p>
+                        <p class='text-green-500'>
+                            <i class="bi bi-facebook mr-3"></i>
+                            <i class="bi bi-twitter mr-3"></i>
+                            <i class="bi bi-youtube"></i>
+                        </p>
+                    </div>
+                    <div class="text-center flex flex-col justify-center cursor-pointer  group items-center text-gray-500 splide__slide ">
+                        <img src="/medias/AMADOU.png" class="max-w-full group-hover:hidden ">
+                        <img src="/medias/AMADOU1.png" class="max-w-full hidden group-hover:block ">
+                        <p class='text-gray-900 text-2xl'>AMADOU</p>
+                        <p class=''>MARKETING DIGITAL</p>
+                        <p class='text-green-500'>
+                            <i class="bi bi-facebook mr-3"></i>
+                            <i class="bi bi-twitter mr-3"></i>
+                            <i class="bi bi-youtube"></i>
+                        </p>
+                    </div>
+                    <div class="text-center flex flex-col justify-center cursor-pointer  group items-center text-gray-500 splide__slide ">
+                        <img src="/medias/div (3).png" class="max-w-full group-hover:hidden ">
+                        <img src="/medias/div1.png" class="max-w-full hidden group-hover:block ">
+                        <p class='text-gray-900 text-2xl'>OUSSEYNOU</p>
+                        <p class=''>ENTREPRENERIAT</p>
+                        <p class='text-green-500'>
+                            <i class="bi bi-facebook mr-3"></i>
+                            <i class="bi bi-twitter mr-3"></i>
+                            <i class="bi bi-youtube"></i>
+                        </p>
+                    </div>
+                    <div class="text-center flex flex-col justify-center cursor-pointer  group items-center text-gray-500 splide__slide ">
+                        <img src="/medias/DIENABA.png" class="max-w-full group-hover:hidden ">
+                        <img src="/medias/DIENABA1.png" class="max-w-full hidden group-hover:block">
+                        <p class='text-gray-900 text-2xl'>DIENABA</p>
+                        <p class=''>DEVELOPPEMENT MOBILE</p>
+                        <p class='text-green-500'>
+                            <i class="bi bi-facebook mr-3"></i>
+                            <i class="bi bi-twitter mr-3"></i>
+                            <i class="bi bi-youtube"></i>
+                        </p>
+                    </div>
+                    <div class="splide__slide flex flex-col justify-center cursor-pointer  group items-center  text-gray-500 ">
+                        <img src="/medias/ALKALY.png" class="max-w-full group-hover:hidden">
+                        <img src="/medias/ALKALY1.png" class="max-w-full hidden group-hover:block">
+                        <p class='text-gray-900 text-2xl'>ABOU</p>
+                        <p>PROGRAMMATION</p>
+                        <p class='text-green-500'>
+                            <i class="bi bi-facebook mr-3"></i>
+                            <i class="bi bi-twitter mr-3"></i>
+                            <i class="bi bi-youtube"></i>
+                        </p>
+                    </div>
+                    <div class="text-center flex flex-col justify-center cursor-pointer  group items-center text-gray-500 splide__slide ">
+                        <img src="/medias/MAHMOUD.png" class="max-w-full group-hover:hidden">
+                        <img src="/medias/MAHMOUD1.png" class="max-w-full hidden group-hover:block">
+                        <p class='text-gray-900 text-2xl'>NDIAGA</p>
+                        <p class=''>DESIGN</p>
+                        <p class='text-green-500'>
+                            <i class="bi bi-facebook mr-3"></i>
+                            <i class="bi bi-twitter mr-3"></i>
+                            <i class="bi bi-youtube"></i>
+                        </p>
+                    </div>
+                    <div class="text-center flex flex-col justify-center cursor-pointer  group items-center text-gray-500 splide__slide ">
+                        <img src="/medias/FATOU.png" class="max-w-full group-hover:hidden">
+                        <img src="/medias/FATOU1.png" class="max-w-full  hidden group-hover:block">
+                        <p class='text-gray-900 text-2xl'>AMADOU</p>
+                        <p class=''>MARKETING DIGITAL</p>
+                        <p class='text-green-500'>
+                            <i class="bi bi-facebook mr-3"></i>
+                            <i class="bi bi-twitter mr-3"></i>
+                            <i class="bi bi-youtube"></i>
+                        </p>
+                    </div>
+                    <div class="text-center flex flex-col justify-center cursor-pointer  group items-center text-gray-500 splide__slide ">
+                        <img src="/medias/DAOUDA.png" class="max-w-full group-hover:hidden">
+                        <img src="/medias/DAOUDA1.png" class="max-w-full  hidden group-hover:block">
+                        <p class='text-gray-900 text-2xl'>OUSSEYNOU</p>
+                        <p class=''>ENTREPRENERIAT</p>
+                        <p class='text-green-500'>
+                            <i class="bi bi-facebook mr-3"></i>
+                            <i class="bi bi-twitter mr-3"></i>
+                            <i class="bi bi-youtube"></i>
+                        </p>
+                    </div>
+                    <div class="text-center flex flex-col justify-center cursor-pointer group items-center  text-gray-500 splide__slide ">
+                        <img src="/medias/JESUS.png" class="max-w-full group-hover:hidden ">
+                        <img src="/medias/JESUS1.png" class="max-w-full hidden  group-hover:block ">
+                        <p class='text-gray-900 text-2xl'>DIENABA</p>
+                        <p class=''>DEVELOPPEMENT MOBILE</p>
+                        <p class='text-green-500'>
+                            <i class="bi bi-facebook mr-3"></i>
+                            <i class="bi bi-twitter mr-3"></i>
+                            <i class="bi bi-youtube"></i>
+                        </p>
+                    </div>
+
+                </div>
+
+            </div>
+        </section>
+
+        <!-- 
         <div class="bg-gray-100 p-11 icons grid grid-cols-5 gap-4">
             <div class="text-center text-gray-500 ">
                 <img src="/medias/ABOU.png" class="max-w-full">
@@ -503,7 +503,7 @@ https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css" rel
                 </p>
             </div>
         </div> -->
-       
+
     </div>
 
     <div id="section7" class='bg-gray-200 p-11'>
@@ -613,10 +613,10 @@ https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css" rel
     <footer class="bg-black p-11 ">
         <div class="flex flex-col md:flex-row md:justify-around flex-wrap">
             <div>
-            <a href="https://flowbite.com/" class="flex items-center">
-                            <img src="/medias/Logo-bakeli.png" class="h-12 mr-3" alt="Flowbite Logo" />
+                <a href="https://flowbite.com/" class="flex items-center">
+                    <img src="/medias/Logo-bakeli.png" class="h-12 mr-3" alt="Flowbite Logo" />
 
-                        </a>
+                </a>
                 <p class="tracking-widest md:w-80 text-gray-500 md:text-lg dark:text-gray-400">Lorem ipsum dolor sit olores quibusdam conre icta Lorem ipsum dolor sit olores quibusdam conre icta</p>
             </div>
             <div>
@@ -641,10 +641,10 @@ https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css" rel
 
 
     <!-- <div id="default-carousel" class="relative w-full" data-carousel="slide"> -->
-        <!-- Carousel wrapper -->
-        <!-- <div class="relative h-56 overflow-hidden rounded-lg md:h-96"> -->
-            <!-- Item 1 -->
-            <!-- <div class="hidden duration-700 ease-in-out" data-carousel-item>
+    <!-- Carousel wrapper -->
+    <!-- <div class="relative h-56 overflow-hidden rounded-lg md:h-96"> -->
+    <!-- Item 1 -->
+    <!-- <div class="hidden duration-700 ease-in-out" data-carousel-item>
                 <div class="bg-gray-100 p-11 icons grid grid-cols-5 gap-4">
                     <div class="text-center text-gray-500">
                         <img src="/medias/ABOU.png" class="max-w-full">
@@ -698,8 +698,8 @@ https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css" rel
                     </div>
                 </div>
             </div> -->
-            <!-- Item 2 -->
-            <!-- <div class="hidden duration-700 ease-in-out" data-carousel-item>
+    <!-- Item 2 -->
+    <!-- <div class="hidden duration-700 ease-in-out" data-carousel-item>
                 <div class="bg-gray-100 p-11 icons grid grid-cols-5 gap-4">
                     <div class="text-center text-gray-500">
                         <img src="/medias/ABOU.png" class="max-w-full">
@@ -761,27 +761,33 @@ https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css" rel
     <script src="
 https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/js/splide.min.js
 "></script>
-<script>
-  document.addEventListener( 'DOMContentLoaded', function() {
-    var splide = new Splide( '.splide',{
-  perPage    : 5,
-  perMove:1,
-  gap: '2rem',
-  autoplay:true,
-  type:'loop',
-  arrows:false,
- pagination: false,
- focus:'start',
- interval: 3000,
- 
-  breakpoints: {
-    1200: { perPage: 3, gap: '1rem' },
-    640 : { perPage: 1, gap: 0 },
-  },
-} );
-    splide.mount();
-  } );
-</script>
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            var splide = new Splide('.splide', {
+                perPage: 5,
+                perMove: 1,
+                gap: '2rem',
+                autoplay: true,
+                type: 'loop',
+                arrows: false,
+                pagination: false,
+                focus: 'start',
+                interval: 3000,
+
+                breakpoints: {
+                    1200: {
+                        perPage: 3,
+                        gap: '1rem'
+                    },
+                    640: {
+                        perPage: 1,
+                        gap: 0
+                    },
+                },
+            });
+            splide.mount();
+        });
+    </script>
 </body>
 
 </html>
