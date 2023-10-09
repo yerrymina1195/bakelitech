@@ -22,7 +22,7 @@ https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css" rel
     <!-- <div id="section1" class=" bg-white"> -->
     <div id="gallery" class="relative w-full" data-carousel="slide">
         <!-- Carousel wrapper -->
-        <div class="relative  h-72 md:h-[700px] overflow-hidden">
+        <div class="relative  h-96 md:h-[700px] overflow-hidden">
             <!-- Item 1 -->
             <div class="duration-700 ease-in-out" data-carousel-item="active">
                 <img src="/medias/banner/myfact3.png" class="absolute block w-full h-96 md:h-[700px] -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="">
