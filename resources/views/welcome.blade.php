@@ -3,12 +3,7 @@
 <head> <meta charset="utf-8"> <meta name="viewport" content="width=device-width, initial-scale=1">
 
 <link rel="shortcut icon" href="/medias/Logo-bakeli.png" type="image/x-icon">
-    <title>Bakeli School of Technology</title>
-    <style>
-        .active {
-            color: brown;
-        }
-    </style>
+    <title>Bakeli Technology of School</title>
     <link href="
 https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css" rel="stylesheet">
     <script defer src="https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js"></script>
@@ -52,10 +47,9 @@ https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css" rel
                             </a>
                             <div class="flex md:order-2">
                                 <button type="button"
-                                    class="text-amber-400 hover:text-white border border-amber-400 hover:bg-amber-500 focus:ring-4 focus:outline-none focus:ring-amber-300 font-medium  text-sm px-5 py-2.5 text-center mr-2  dark:border-amber-300 dark:text-amber-300  dark:hover:bg-amber-400 dark:focus:ring-amber-900">Nous
-                                    rejoindre</button>
+                                    class="text-amber-400 hover:text-white border border-amber-400 hover:bg-amber-500 text-sm px-5 py-2.5 text-center mr-2 ">Nous-rejoindre</button>
                                 <button data-collapse-toggle="navbar-cta" type="button"
-                                    class="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600"
+                                    class="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-white md:hidden  bg-yellow-300"
                                     aria-controls="navbar-cta" aria-expanded="false">
                                     <span class="sr-only">Open main menu</span>
                                     <svg class="w-5 h-5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg"
@@ -68,15 +62,15 @@ https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css" rel
                             <div class="items-center justify-between hidden w-full md:flex md:w-auto md:order-1"
                                 id="navbar-cta">
                                 <ul
-                                    class="flex flex-col font-medium items-center p-4 md:p-0 mt-4 border border-gray-100 rounded-lg bg-gray-50 md:flex-row md:space-x-8 md:mt-0 md:border-0 md:bg-transparent">
+                                    class="flex flex-col font-medium p-4 md:p-0 mt-4 border rounded-lg bg-gray-50 md:flex-row md:space-x-8 md:mt-0 md:border-0 md:bg-transparent">
                                     <li>
                                         <a href="#"
-                                            class="block py-2 pl-3 pr-4 text-black  bg-white rounded md:bg-transparent md:text-yellow-300 md:p-0 md:dark:text-yellow-300"
+                                            class="block py-2 pl-3 pr-4 text-black  hover:bg-greenbakeli rounded md:bg-transparent md:text-yellow-300 md:p-0 hover:text-white"
                                             aria-current="page">Accueil</a>
                                     </li>
                                     <li>
                                         <button id="dropdownNavbarLink" data-dropdown-toggle="dropdownNavbar"
-                                            class="flex items-center justify-between w-full py-2 pl-3 pr-4  rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-yellow-300 md:p-0 md:w-auto  md:dark:hover:text-yellow-300  "
+                                            class="flex items-center justify-between w-full py-2 pl-3 pr-4  rounded hover:bg-greenbakeli  md:hover:bg-transparent md:border-0 md:hover:text-yellow-300 md:p-0 md:w-auto hover:text-white "
                                             :class="{  'text-gray-800 md:text-white ': !atTop, '  md:text-gray-800 ': atTop }">Nos Programmes
                                             <svg class="w-2.5 h-2.5 ml-2.5" aria-hidden="true"
                                                 xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 10 6">
@@ -105,7 +99,7 @@ https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css" rel
                                     </li>
                                     <li>
                                         <button id="dropdownNavbarLink2" data-dropdown-toggle="dropdownNavbar2"
-                                            class="flex items-center justify-between w-full py-2 pl-3 pr-4  rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-yellow-300 md:p-0 md:w-auto  md:dark:hover:text-yellow-300  "
+                                            class="flex items-center justify-between w-full py-2 pl-3 pr-4  rounded hover:bg-greenbakeli  md:hover:bg-transparent md:border-0 md:hover:text-yellow-300 md:p-0 md:w-auto hover:text-white "
                                             :class="{  'text-gray-800 md:text-white ': !atTop, '  md:text-gray-800 ': atTop }">Nos Campus
                                             <svg class="w-2.5 h-2.5 ml-2.5" aria-hidden="true"
                                                 xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 10 6">
@@ -134,12 +128,12 @@ https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css" rel
                                     </li>
                                     <li>
                                         <a href="#"
-                                            class="block py-2 pl-3 pr-4 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-yellow-300 md:p-0 md:dark:hover:text-yellow-300  dark:hover:bg-gray-700 md:dark:hover:bg-transparent dark:border-gray-700"
+                                            class="block py-2 pl-3 pr-4 rounded hover:bg-greenbakeli  md:hover:bg-transparent md:hover:text-yellow-300 md:p-0 hover:text-white"
                                             :class="{  'text-gray-800 md:text-white ': !atTop, '  md:text-gray-800 ': atTop }">Blog</a>
                                     </li>
                                     <li>
                                         <a href="#section4"
-                                            class="block py-2 pl-3 pr-4 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-yellow-300 md:p-0 md:dark:hover:text-yellow-300  dark:hover:bg-gray-700 md:dark:hover:bg-transparent dark:border-gray-700"
+                                            class="block py-2 pl-3 pr-4 rounded hover:bg-greenbakeli  md:hover:bg-transparent md:hover:text-yellow-300 md:p-0 hover:text-white"
                                             :class="{  'text-gray-800 md:text-white ': !atTop, '  md:text-gray-800 ': atTop }">Galerie</a>
                                     </li>
                                 </ul>
