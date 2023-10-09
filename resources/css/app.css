@@ -1,7 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800;900&display=swap');
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
+
+@layer base {
+    * {
+        margin: 0;
+        padding: 0;
+        font-family: 'Montserrat', sans-serif;
+      }
+
+body{
+    background-color: #F3F4F6;
+}
 .text {
     padding-top: 15%;
 }
@@ -48,4 +60,5 @@
 }
 .splide_slide_focus {
     background-color: aqua !important;
+}
 }
