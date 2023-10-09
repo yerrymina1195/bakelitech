@@ -234,7 +234,7 @@ https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css" rel
                         </div>
                         <div class="flex justify-between">
                             <input type="mail" id=""
-                                class="w-full h-10 border-gray-100 text-black text-sm focus:ring-blue-500 focus:border-blue-500 block p-2.5 bg-gray-300  dark:focus:ring-blue-500 dark:focus:border-blue-500"
+                                class="w-full h-10 border-gray-100 text-black text-sm focus:ring-yellow-500 focus:border-yellow-500 block p-2.5 bg-gray-300"
                                 placeholder="Enter your mail..." required>
                                 <x-button title="S'INSCRIRE"></x-button>
                         </div>
@@ -249,7 +249,8 @@ https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css" rel
             <p class=" text-gray-500 text-sm pb-3">OUR PORTFOLIO</p>
             <h1 class="text-xl  text-black pb-3">WORK SHOWCASE</h1>
             <p class="w-80 mb-5 text-gray-500 md:text-lg dark:text-gray-400">Lorem ipsum dolor sit olores
-                quibusdam conre icta</p>
+                quibusdam conre icta
+            </p>
 
 
             <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-3  gap-4 w-3/4 lg:p-11">
@@ -358,9 +359,9 @@ https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css" rel
                         <div
                             class="splide__slide flex flex-col justify-center cursor-pointer  group items-center  text-gray-500 ">
                             <img src="/medias/ABOU1.png" class="max-w-full grayscale transition delay-300 ease-in-out   group-hover:grayscale-0 ">
-                            <p class='text-gray-900 text-2xl'>ABOU</p>
-                            <p>PROGRAMMATION</p>
-                            <p class='text-green-500'>
+                            <p class='text-black mt-5 text-sm font-bold'>ABOU</p>
+                            <p class='text-sm'>PROGRAMMATION</p>
+                            <p class='text-green-500 text-sm'>
                                 <i class="bi bi-facebook mr-3"></i>
                                 <i class="bi bi-twitter mr-3"></i>
                                 <i class="bi bi-youtube"></i>
@@ -370,9 +371,9 @@ https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css" rel
                             class="text-center flex flex-col justify-center cursor-pointer transition delay-1000 ease-in-out  group items-center text-gray-500 splide__slide ">
                     
                             <img src="/medias/NDIAGA1.png" class="max-w-full grayscale transition delay-300 ease-in-out   group-hover:grayscale-0      ">
-                            <p class='text-gray-900 text-2xl'>NDIAGA</p>
-                            <p class=''>DESIGNER</p>
-                            <p class='text-green-500'>
+                            <p class='text-black mt-5 text-sm font-bold'>NDIAGA</p>
+                            <p class='text-sm' class=''>DESIGNER</p>
+                            <p class='text-green-500 text-sm'>
                                 <i class="bi bi-facebook mr-3"></i>
                                 <i class="bi bi-twitter mr-3"></i>
                                 <i class="bi bi-youtube"></i>
@@ -382,9 +383,9 @@ https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css" rel
                             class="text-center flex flex-col justify-center cursor-pointer  group items-center text-gray-500 splide__slide ">
                 
                             <img src="/medias/AMADOU1.png" class="max-w-full grayscale transition delay-300 ease-in-out   group-hover:grayscale-0  ">
-                            <p class='text-gray-900 text-2xl'>AMADOU</p>
-                            <p class=''>MARKETING DIGITAL</p>
-                            <p class='text-green-500'>
+                            <p class='text-black mt-5 text-sm font-bold'>AMADOU</p>
+                            <p class='text-sm' class=''>MARKETING DIGITAL</p>
+                            <p class='text-green-500 text-sm'>
                                 <i class="bi bi-facebook mr-3"></i>
                                 <i class="bi bi-twitter mr-3"></i>
                                 <i class="bi bi-youtube"></i>
@@ -394,9 +395,9 @@ https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css" rel
                             class="text-center flex flex-col justify-center cursor-pointer  group items-center text-gray-500 splide__slide ">
                     
                             <img src="/medias/div1.png" class="max-w-full grayscale transition delay-300 ease-in-out   group-hover:grayscale-0  ">
-                            <p class='text-gray-900 text-2xl'>OUSSEYNOU</p>
-                            <p class=''>ENTREPRENERIAT</p>
-                            <p class='text-green-500'>
+                            <p class='text-black mt-5 text-sm font-bold'>OUSSEYNOU</p>
+                            <p class='text-sm' class=''>ENTREPRENERIAT</p>
+                            <p class='text-green-500 text-sm'>
                                 <i class="bi bi-facebook mr-3"></i>
                                 <i class="bi bi-twitter mr-3"></i>
                                 <i class="bi bi-youtube"></i>
@@ -406,9 +407,9 @@ https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css" rel
                             class="text-center flex flex-col justify-center cursor-pointer  group items-center text-gray-500 splide__slide ">
                     
                             <img src="/medias/DIENABA1.png" class="max-w-full grayscale transition delay-300 ease-in-out   group-hover:grayscale-0 ">
-                            <p class='text-gray-900 text-2xl'>DIENABA</p>
-                            <p class=''>DEVELOPPEMENT MOBILE</p>
-                            <p class='text-green-500'>
+                            <p class='text-black mt-5 text-sm font-bold'>DIENABA</p>
+                            <p class='text-sm' class=''>DEVELOPPEMENT MOBILE</p>
+                            <p class='text-green-500 text-sm'>
                                 <i class="bi bi-facebook mr-3"></i>
                                 <i class="bi bi-twitter mr-3"></i>
                                 <i class="bi bi-youtube"></i>
@@ -418,9 +419,9 @@ https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css" rel
                             class="splide__slide flex flex-col justify-center cursor-pointer  group items-center  text-gray-500 ">
                 
                             <img src="/medias/ALKALY1.png" class="max-w-full grayscale transition delay-300 ease-in-out   group-hover:grayscale-0 ">
-                            <p class='text-gray-900 text-2xl'>ABOU</p>
-                            <p>PROGRAMMATION</p>
-                            <p class='text-green-700 text-sm mt-3'>
+                            <p class='text-black mt-5 text-sm font-bold'>ABOU</p>
+                            <p class='text-sm'>PROGRAMMATION</p>
+                            <p class='text-green-700 text-sm text-sm mt-3'>
                                 <i class="bi bi-facebook mr-3"></i>
                                 <i class="bi bi-twitter mr-3"></i>
                                 <i class="bi bi-youtube"></i>
@@ -430,9 +431,9 @@ https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css" rel
                             class="text-center flex flex-col justify-center cursor-pointer  group items-center text-gray-500 splide__slide ">
                     
                             <img src="/medias/MAHMOUD1.png" class="max-w-full grayscale transition delay-300 ease-in-out   group-hover:grayscale-0 ">
-                            <p class='text-gray-900 text-2xl'>NDIAGA</p>
-                            <p class=''>DESIGN</p>
-                            <p class='text-green-500'>
+                            <p class='text-black mt-5 text-sm font-bold'>NDIAGA</p>
+                            <p class='text-sm' class=''>DESIGN</p>
+                            <p class='text-green-500 text-sm'>
                                 <i class="bi bi-facebook mr-3"></i>
                                 <i class="bi bi-twitter mr-3"></i>
                                 <i class="bi bi-youtube"></i>
@@ -442,9 +443,9 @@ https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css" rel
                             class="text-center flex flex-col justify-center cursor-pointer  group items-center text-gray-500 splide__slide ">
             
                             <img src="/medias/FATOU1.png" class="max-w-full grayscale transition delay-300 ease-in-out   group-hover:grayscale-0  ">
-                            <p class='text-gray-900 text-2xl'>AMADOU</p>
-                            <p class=''>MARKETING DIGITAL</p>
-                            <p class='text-green-500'>
+                            <p class='text-black mt-5 text-sm font-bold'>AMADOU</p>
+                            <p class='text-sm' class=''>MARKETING DIGITAL</p>
+                            <p class='text-green-500 text-sm'>
                                 <i class="bi bi-facebook mr-3"></i>
                                 <i class="bi bi-twitter mr-3"></i>
                                 <i class="bi bi-youtube"></i>
@@ -454,9 +455,9 @@ https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css" rel
                             class="text-center flex flex-col justify-center cursor-pointer  group items-center text-gray-500 splide__slide ">
                 
                             <img src="/medias/DAOUDA1.png" class="max-w-full grayscale transition delay-300 ease-in-out   group-hover:grayscale-0 ">
-                            <p class='text-gray-900 text-2xl'>OUSSEYNOU</p>
-                            <p class=''>ENTREPRENERIAT</p>
-                            <p class='text-green-500'>
+                            <p class='text-black mt-5 text-sm font-bold'>OUSSEYNOU</p>
+                            <p class='text-sm' class=''>ENTREPRENERIAT</p>
+                            <p class='text-green-500 text-sm'>
                                 <i class="bi bi-facebook mr-3"></i>
                                 <i class="bi bi-twitter mr-3"></i>
                                 <i class="bi bi-youtube"></i>
@@ -466,9 +467,9 @@ https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css" rel
                             class="text-center flex flex-col justify-center cursor-pointer group items-center  text-gray-500 splide__slide ">
             
                             <img src="/medias/JESUS1.png" class="max-w-full grayscale transition delay-300 ease-in-out   group-hover:grayscale-0 ">
-                            <p class='text-gray-900 text-2xl'>DIENABA</p>
-                            <p class=''>DEVELOPPEMENT MOBILE</p>
-                            <p class='text-green-500'>
+                            <p class='text-black mt-5 text-sm font-bold'>DIENABA</p>
+                            <p class='text-sm' class=''>DEVELOPPEMENT MOBILE</p>
+                            <p class='text-green-500 text-sm'>
                                 <i class="bi bi-facebook mr-3"></i>
                                 <i class="bi bi-twitter mr-3"></i>
                                 <i class="bi bi-youtube"></i>
@@ -504,15 +505,6 @@ https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css" rel
                 <div class="text-cente flex justify-center items-center bg-white p-11 text-gray-500">
                     <img src="/medias/sweety.png" class="max-w-full  mx-auto h-10 lg:h-auto ">
                 </div>
-                <!-- <div class="text-center text-gray-500">
-                    <img src="/medias/div (4).png" class="max-w-full">
-                </div>
-                <div class="text-center text-gray-500">
-                    <img src="/medias/div (4).png" class="max-w-full">
-                </div>
-                <div class="text-center text-gray-500">
-                    <img src="/medias/div (4).png" class="max-w-full">
-                </div> -->
             </div>
         </div>
 
