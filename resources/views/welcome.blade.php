@@ -41,7 +41,7 @@ https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css" rel
             <!-- <button type="button" class="absolute top-0 left-0 z-30 flex items-center justify-center h-full px-4 cursor-pointer group focus:outline-none" data-carousel-prev> -->
             <div class='absolute top-0 z-30 w-full'>
                 <div x-data="{ atTop: false }">
-                    <nav class=" fixed w-full p-0 bg-transparent shadow-inner  border-gray-200 "
+                    <nav class=" fixed w-full p-0 bg-transparent border-b border-[#ffffff53]"
                         :class="{ 'shadow-lg': atTop, 'bg-transparent text-white': !atTop, 'bg-white text-indigo-800': atTop }"
                         @scroll.window="atTop = (window.pageYOffset < 50) ? false: true">
                         <!-- <nav class="bg-transparent"> -->
@@ -161,15 +161,17 @@ https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css" rel
                 <div class="text-center text">
                     <h1 class="md:text-3xl font-bold pt-24 pb-5 text-white">BAKELI TECHNOLOGY OF SCHOOL</h1>
                     <button type="button"
-                        class="py-2.5 px-5 mr-2 mb-2 text-sm font-medium text-white focus:outline-none bg-[#009688]   hover:bg-[#009687d2] hover:text-white-700">S'INSCRIRE</button>
-                </div>
+        class="py-2.5 px-5 mr-2 h-10 mb-2 text-sm font-medium text-white focus:outline-none bg-green-700 hover:bg-green-700 hover:text-white-700 focus:z-10 focus:ring-4 focus:ring-gray-200 ">
+       S'INSCRIRE
+    </button>               
+ </div>
             </div>
 
         </div>
 
         <div class="p-11 bg-black">
             <div class="section2 text-center flex items-center justify-center flex-col md:p-11">
-                <p class=" text-green-500 pb-3">Filieres</p>
+                <p class=" text-green-700 pb-3">Filieres</p>
                 <h1 class="text-xl  text-white pb-5">DOMAINES DE FORMATIONS</h1>
                 <p class="w-70 text-gray-500 md:text-lg dark:text-gray-400">Praesentium ipsam
                     exercitationem consequatur dolorum.</p>
@@ -194,10 +196,6 @@ https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css" rel
 
                         <p class="text-sm mt-5">ENTREPRENERIAT</p>
                     </div>
-                    <!-- <div class="border p-5 text-[#EBEBEB]">
-                    <img src="/medias/svgggg.svg" class="mx-auto" alt="">
-                    <p class="text-sm">DEVELOPPEMENT MOBILE</p>
-                </div> -->
                 </div>
             </div>
         </div>
@@ -207,50 +205,20 @@ https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css" rel
                 <div class=" md:my-auto  ">
                     <p class=" text-black pb-3">BIENVENUE</p>
                     <h1 class="text-2xl font-bold text-black pb-5">BAKELI TECHNOLOGY OF SCHOOL</h1>
-                    <p class=" w-70 text-gray-500 text-xs lg:text-lg   dark:text-gray-400">We are committed to providing
+                    <p class=" w-70 text-gray-500 text-xs lg:text-lg mb-5  dark:text-gray-400">We are committed to providing
                         our customers with exceptional service while offering our employees the best training. Lorem
                         Ipsum is simply dummy text of the printing and typesetting industry has been the industry’s
                         standard dummy text ever since the 1500s.</p>
-                    <button type="button"
-                        class="mt-5 py-2.5 px-5 mr-2 mb-2 text-sm font-medium text-white focus:outline-none bg-green-500   border-orange-500 border-r-4 hover:bg-green-700 hover:text-white-700">S'INSCRIRE</button>
+                        <x-button title="S'INSCRIRE"></x-button>
                 </div>
 
                 <div>
                     <img class="h-auto   w-full rounded" src="/medias/meta.png" alt="">
                 </div>
 
-
-                <!-- <div class="bg-white ">
-                <div class="bg-orange-500 shadow h-52 absolute w-80 top-8 right-4">
-                    <div class=" absolute w-full top-2 right-8">
-                        <img class="h-auto max-w-full rounded" src="/medias/rectangle 1515.png" alt="">
-                    </div>
-                    <div class=" border-green-500 border-4 h-52 absolute w-80 top-8 right-8"></div>
-                </div>
-            </div> -->
             </div>
         </div>
-        <!-- <div class=" w-full h-100">
-        <div class="p-48 text-center ">
-            <p class="">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-            <h2>Lorem ipsum dolor sit amet.</h2>
-        </div>
-        <div class="h-[400px]  -translate-y-36 place-content-center">
-            <div class="h-auto w-[700px]">
-                <img src="/medias/div (2).png" alt="">
-            </div>
-            <div class="flex justify-between">
-                <div class="text-start">
-                    <p class="text-sm text-gray-500">DON'T MISS OUT OUR LATEST UPDATES</p>
-                    <h2 class="text-2xl font-bold text-black pb-3">S'INSRIRE</h2>
-                </div>
-                <div class="flex justify-center gap-5 ">
-                    <input type="mail" id="" class="bg-gray-50 w-full h-10 border-gray-100 text-black text-sm focus:ring-blue-500 focus:border-blue-500 block p-2.5  dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400  dark:focus:ring-blue-500 dark:focus:border-blue-500" placeholder="Enter your mail..." required>
-                    <button type="button" class="py-2.5 px-5 mr-2 h-10 mb-2 text-sm font-medium text-white focus:outline-none bg-green-500 rounded-lg  border-orange-500 border-r-4 hover:bg-green-700 hover:text-white-700 focus:z-10 focus:ring-4 focus:ring-gray-200 dark:focus:ring-gray-700 dark:bg-gray-800 dark:text-gray-400 dark:border-gray-600 dark:hover:text-white dark:hover:bg-gray-700">S'INSCRIRE</button>
-                </div>
-            </div>
-        </div>
-    </div> -->
+       
         <div id="section4" class=" bg-gray-100 h-[600px]">
             <div class='text-center relative bg-gray-200 flex items-center justify-center flex-col p-11'>
                 <div class="p-11">
@@ -264,14 +232,13 @@ https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css" rel
                     <div class="flex justify-between flex-wrap pt-11">
                         <div class="text-start">
                             <p class="text-sm text-gray-500">DON'T MISS OUT OUR LATEST UPDATES</p>
-                            <h2 class="text-xl font-bold text-black pb-3">S'INSRIRE</h2>
+                            <h2 class="text-xl font-bold text-black pb-3">S'INSCRIRE</h2>
                         </div>
                         <div class="flex justify-between">
                             <input type="mail" id=""
                                 class="w-full h-10 border-gray-100 text-black text-sm focus:ring-blue-500 focus:border-blue-500 block p-2.5 bg-gray-300  dark:focus:ring-blue-500 dark:focus:border-blue-500"
                                 placeholder="Enter your mail..." required>
-                            <button type="button"
-                                class="py-2.5 px-5 mr-2 h-10 mb-2 text-sm font-medium text-white focus:outline-none bg-green-500 border-orange-500 border-r-4 hover:bg-green-700 hover:text-white-700 focus:z-10 focus:ring-4 focus:ring-gray-200 ">S'INSCRIRE</button>
+                                <x-button title="S'INSCRIRE"></x-button>
                         </div>
                     </div>
                 </div>
@@ -334,7 +301,7 @@ https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css" rel
         </div>
 
         <div class='relative bg-black'>
-            <div class="section2 text-center flex items-center justify-center flex-row pt-11 p-11 px-0">
+            <div class="section2 text-center flex items-center justify-center flex-row pt-11 p-28 px-0">
                 <div class="icons grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-4 gap-4">
                     <div class=" md:p-5">
                         <p class='text-4xl mb-5 text-white font-bold'>8.705</p>
@@ -356,7 +323,6 @@ https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css" rel
             </div>
 
             <div class="p-3 h-auto bg-gray-100">
-                <!-- <div class="absolute p-11 top-60 left-60 grid grid-cols-2"> -->
                 <div class="md:p-11 justify-center items-center  relative md:-translate-y-28 flex flex-col md:flex-row">
                     <div class="">
                         <img class=" h-60 md:h-96 w-full md:max-w-full mx-auto " src="/medias/CHRIST.png" alt="">
@@ -367,7 +333,7 @@ https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css" rel
                         <p class=" pb-5 text-gray-500 md:text-lg dark:text-gray-400">Lorem fficiis ipsa,
                             a et facilis maiores amet quasi, voluptas ratione delectus recusandae totam.</p>
                         <button type="button"
-                            class="py-2.5 px-5 mr-2 mb-2 text-sm font-medium text-white focus:outline-none bg-green-500  border-orange-500 border-r-4 hover:bg-green-700 hover:text-white-700 focus:z-10 focus:ring-4 focus:ring-gray-200 dark:hover:text-white dark:hover:bg-green-700">LEARN
+                            class="py-2.5 px-5 mr-2 mb-2 text-sm font-medium text-white focus:outline-none bg-green-700  border-orange-500 border-r-4 hover:bg-green-700 hover:text-white-700 focus:z-10 focus:ring-4 focus:ring-gray-200 dark:hover:text-white dark:hover:bg-green-700">LEARN
                             MORE</button>
                     </div>
                 </div>
@@ -397,7 +363,7 @@ https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css" rel
                             <img src="/medias/ABOU1.png" class="max-w-full hidden group-hover:block">
                             <p class='text-black font-bold text-sm mt-5'>ABOU</p>
                             <p class='text-sm mt-1'>PROGRAMMATION</p>
-                            <p class='text-green-500 text-sm mt-2'>
+                            <p class='text-green-700 text-sm mt-2'>
                                 <i class="bi bi-facebook mr-3"></i>
                                 <i class="bi bi-twitter mr-3"></i>
                                 <i class="bi bi-youtube"></i>
@@ -409,7 +375,7 @@ https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css" rel
                             <img src="/medias/NDIAGA1.png" class="max-w-full hidden group-hover:block ">
                             <p class='text-black font-bold text-sm mt-5'>NDIAGA</p>
                             <p class='text-sm mt-1'>DESIGN</p>
-                            <p class='text-green-500 text-sm mt-2'>
+                            <p class='text-green-700 text-sm mt-2'>
                                 <i class="bi bi-facebook mr-3"></i>
                                 <i class="bi bi-twitter mr-3"></i>
                                 <i class="bi bi-youtube"></i>
@@ -421,7 +387,7 @@ https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css" rel
                             <img src="/medias/AMADOU1.png" class="max-w-full hidden group-hover:block ">
                             <p class='text-black font-bold text-sm mt-5'>AMADOU</p>
                             <p class='text-sm mt-1'>MARKETING DIGITAL</p>
-                            <p class='text-green-500 text-sm mt-2'>
+                            <p class='text-green-700 text-sm mt-2'>
                                 <i class="bi bi-facebook mr-3"></i>
                                 <i class="bi bi-twitter mr-3"></i>
                                 <i class="bi bi-youtube"></i>
@@ -433,7 +399,7 @@ https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css" rel
                             <img src="/medias/div1.png" class="max-w-full hidden group-hover:block ">
                             <p class='text-black font-bold text-sm mt-5'>OUSSEYNOU</p>
                             <p class='text-sm mt-1'>ENTREPRENERIAT</p>
-                            <p class='text-green-500 text-sm mt-2'>
+                            <p class='text-green-700 text-sm mt-2'>
                                 <i class="bi bi-facebook mr-3"></i>
                                 <i class="bi bi-twitter mr-3"></i>
                                 <i class="bi bi-youtube"></i>
@@ -445,7 +411,7 @@ https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css" rel
                             <img src="/medias/DIENABA1.png" class="max-w-full hidden group-hover:block">
                             <p class='text-black font-bold text-sm mt-5'>DIENABA</p>
                             <p class='text-sm mt-1'>DEVELOPPEMENT MOBILE</p>
-                            <p class='text-green-500 text-sm mt-2'>
+                            <p class='text-green-700 text-sm mt-2'>
                                 <i class="bi bi-facebook mr-3"></i>
                                 <i class="bi bi-twitter mr-3"></i>
                                 <i class="bi bi-youtube"></i>
@@ -457,7 +423,7 @@ https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css" rel
                             <img src="/medias/ALKALY1.png" class="max-w-full hidden group-hover:block">
                             <p class='text-black font-bold text-sm mt-5'>ABOU</p>
                             <p>PROGRAMMATION</p>
-                            <p class='text-green-500 text-sm mt-3'>
+                            <p class='text-green-700 text-sm mt-3'>
                                 <i class="bi bi-facebook mr-3"></i>
                                 <i class="bi bi-twitter mr-3"></i>
                                 <i class="bi bi-youtube"></i>
@@ -469,7 +435,7 @@ https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css" rel
                             <img src="/medias/MAHMOUD1.png" class="max-w-full hidden group-hover:block">
                             <p class='text-black font-bold text-sm mt-5'>NDIAGA</p>
                             <p class='text-sm mt-1'>DESIGN</p>
-                            <p class='text-green-500 text-sm mt-2'>
+                            <p class='text-green-700 text-sm mt-2'>
                                 <i class="bi bi-facebook mr-3"></i>
                                 <i class="bi bi-twitter mr-3"></i>
                                 <i class="bi bi-youtube"></i>
@@ -481,7 +447,7 @@ https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css" rel
                             <img src="/medias/FATOU1.png" class="max-w-full  hidden group-hover:block">
                             <p class='text-black font-bold text-sm mt-5'>AMADOU</p>
                             <p class='text-sm mt-1'>MARKETING DIGITAL</p>
-                            <p class='text-green-500 text-sm mt-2'>
+                            <p class='text-green-700 text-sm mt-2'>
                                 <i class="bi bi-facebook mr-3"></i>
                                 <i class="bi bi-twitter mr-3"></i>
                                 <i class="bi bi-youtube"></i>
@@ -493,7 +459,7 @@ https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css" rel
                             <img src="/medias/DAOUDA1.png" class="max-w-full  hidden group-hover:block">
                             <p class='text-black font-bold text-sm mt-5'>OUSSEYNOU</p>
                             <p class='text-sm mt-1'>ENTREPRENERIAT</p>
-                            <p class='text-green-500 text-sm mt-2'>
+                            <p class='text-green-700 text-sm mt-2'>
                                 <i class="bi bi-facebook mr-3"></i>
                                 <i class="bi bi-twitter mr-3"></i>
                                 <i class="bi bi-youtube"></i>
@@ -505,7 +471,7 @@ https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css" rel
                             <img src="/medias/JESUS1.png" class="max-w-full hidden  group-hover:block ">
                             <p class='text-black font-bold text-sm mt-5'>DIENABA</p>
                             <p class='text-sm mt-1'>DEVELOPPEMENT MOBILE</p>
-                            <p class='text-green-500 text-sm mt-2'>
+                            <p class='text-green-700 text-sm mt-2'>
                                 <i class="bi bi-facebook mr-3"></i>
                                 <i class="bi bi-twitter mr-3"></i>
                                 <i class="bi bi-youtube"></i>
@@ -546,12 +512,12 @@ https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css" rel
         <div id="section22" class="md:p-11 py-11">
             <div class="section2 text-center flex items-center justify-center flex-col md:p-11">
 
-                    <div class="p-2 px-3  bg-green-500 mb-5">
+                    <div class="p-2 px-3  bg-green-700 mb-5">
                         <i class="bi bi-people-fill text-white text-4xl mb-5"></i>
                     </div>
                 <h1 class="text-2xl w-full font-bold md:w-1/2 text-white pb-5">
                     GREAT THINGS IN BUSINESS ARE NEVER DONE BY ONE PERSON.
-                    <span class='text-green-500'>
+                    <span class='text-green-700'>
                         THEY'RE DONE BY A TEAM OF PEOPLE
                     </span>
                 </h1>
@@ -576,16 +542,13 @@ https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css" rel
                     </a>
                     <div class="p-4">
                         <a href="#">
-                            <h6 class="mb-3 font-bold tracking-tight text-green-500 mt-6">26 Nov</h5>
+                            <h6 class="mb-3 font-bold tracking-tight text-green-700 mt-6">26 Nov</h5>
                         </a>
                         <a href="#">
                             <h5 class="mb-5 text-2xl font-bold tracking-tight text-black">Noteworthy technology
                                 acquisitions 2021</h5>
                         </a>
-                        <a href="#"
-                            class="bg-gray-900 inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white hover:bg-gray-600 focus:ring-4 focus:outline-none focus:ring-gray-900">
-                            LEARN MORE
-                        </a>
+                       <x-button2 />
                     </div>
                 </div>
                 <div class="w-full bg-white">
@@ -594,16 +557,13 @@ https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css" rel
                     </a>
                     <div class="p-4">
                         <a href="#">
-                            <h6 class="mb-3 font-bold tracking-tight text-green-500 mt-6">26 Nov</h5>
+                            <h6 class="mb-3 font-bold tracking-tight text-green-700 mt-6">26 Nov</h5>
                         </a>
                         <a href="#">
                             <h5 class="mb-5 text-2xl font-bold tracking-tight text-black">Noteworthy technology
                                 acquisitions 2021</h5>
                         </a>
-                        <a href="#"
-                            class="bg-gray-900 inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white hover:bg-gray-600 focus:ring-4 focus:outline-none focus:ring-gray-900">
-                            LEARN MORE
-                        </a>
+                       <x-button2 />
                     </div>
                 </div>
                 <div class="w-full bg-white">
@@ -612,16 +572,13 @@ https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css" rel
                     </a>
                     <div class="p-4">
                         <a href="#">
-                            <h6 class="mb-3 font-bold tracking-tight text-green-500 mt-6">26 Nov</h5>
+                            <h6 class="mb-3 font-bold tracking-tight text-green-700 mt-6">26 Nov</h5>
                         </a>
                         <a href="#">
                             <h5 class="mb-5 text-2xl font-bold tracking-tight text-black">Noteworthy technology
                                 acquisitions 2021</h5>
                         </a>
-                        <a href="#"
-                            class="bg-gray-900 inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white hover:bg-gray-600 focus:ring-4 focus:outline-none focus:ring-gray-900">
-                            LEARN MORE
-                        </a>
+                       <x-button2 />
                     </div>
                 </div>
             </div>
@@ -630,7 +587,7 @@ https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css" rel
             <div class="flex justify-between gap-4 flex-wrap p-16">
                 <p class=" text-2xl text-white md:ml-20">LET'S GET YOUR PROJECT START!</p>
                 <button type="button"
-                    class="py-2.5 px-5 mr-2 mb-2 text-sm font-medium text-white focus:outline-none bg-green-500  border-white border-r-4 hover:bg-green-700 hover:text-white-700">CONTACT-US</button>
+                    class="py-2.5 px-5 mr-2 mb-2 text-sm font-medium text-white focus:outline-none bg-green-700  border-white border-r-4 hover:bg-green-700 hover:text-white-700">CONTACT-US</button>
             </div>
         </div>
 
