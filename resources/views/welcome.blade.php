@@ -161,10 +161,8 @@ https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css" rel
                 <div class="text-center text">
                     <h1 class="md:text-3xl font-bold pt-24 pb-5 text-white">BAKELI TECHNOLOGY OF SCHOOL</h1>
                     <button type="button"
-        class="py-2.5 px-5 mr-2 h-10 mb-2 text-sm font-medium text-white focus:outline-none bg-green-700 hover:bg-green-700 hover:text-white-700 focus:z-10 focus:ring-4 focus:ring-gray-200 ">
-       S'INSCRIRE
-    </button>               
- </div>
+                        class="py-2.5 px-5 mr-2 mb-2 text-sm font-medium text-white focus:outline-none bg-greenbakeli   hover:bg-[#009687d2] hover:text-white-700">S'INSCRIRE</button>
+                </div>
             </div>
 
         </div>
@@ -359,11 +357,22 @@ https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css" rel
 
                         <div
                             class="splide__slide flex flex-col justify-center cursor-pointer  group items-center  text-gray-500 ">
-                            <img src="/medias/ABOU.png" class="max-w-full group-hover:hidden">
-                            <img src="/medias/ABOU1.png" class="max-w-full hidden group-hover:block">
-                            <p class='text-black font-bold text-sm mt-5'>ABOU</p>
-                            <p class='text-sm mt-1'>PROGRAMMATION</p>
-                            <p class='text-green-700 text-sm mt-2'>
+                            <img src="/medias/ABOU1.png" class="max-w-full grayscale transition delay-300 ease-in-out   group-hover:grayscale-0 ">
+                            <p class='text-gray-900 text-2xl'>ABOU</p>
+                            <p>PROGRAMMATION</p>
+                            <p class='text-green-500'>
+                                <i class="bi bi-facebook mr-3"></i>
+                                <i class="bi bi-twitter mr-3"></i>
+                                <i class="bi bi-youtube"></i>
+                            </p>
+                        </div>
+                        <div
+                            class="text-center flex flex-col justify-center cursor-pointer transition delay-1000 ease-in-out  group items-center text-gray-500 splide__slide ">
+                    
+                            <img src="/medias/NDIAGA1.png" class="max-w-full grayscale transition delay-300 ease-in-out   group-hover:grayscale-0      ">
+                            <p class='text-gray-900 text-2xl'>NDIAGA</p>
+                            <p class=''>DESIGNER</p>
+                            <p class='text-green-500'>
                                 <i class="bi bi-facebook mr-3"></i>
                                 <i class="bi bi-twitter mr-3"></i>
                                 <i class="bi bi-youtube"></i>
@@ -371,11 +380,11 @@ https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css" rel
                         </div>
                         <div
                             class="text-center flex flex-col justify-center cursor-pointer  group items-center text-gray-500 splide__slide ">
-                            <img src="/medias/NDIAGA.png" class="max-w-full group-hover:hidden ">
-                            <img src="/medias/NDIAGA1.png" class="max-w-full hidden group-hover:block ">
-                            <p class='text-black font-bold text-sm mt-5'>NDIAGA</p>
-                            <p class='text-sm mt-1'>DESIGN</p>
-                            <p class='text-green-700 text-sm mt-2'>
+                
+                            <img src="/medias/AMADOU1.png" class="max-w-full grayscale transition delay-300 ease-in-out   group-hover:grayscale-0  ">
+                            <p class='text-gray-900 text-2xl'>AMADOU</p>
+                            <p class=''>MARKETING DIGITAL</p>
+                            <p class='text-green-500'>
                                 <i class="bi bi-facebook mr-3"></i>
                                 <i class="bi bi-twitter mr-3"></i>
                                 <i class="bi bi-youtube"></i>
@@ -383,11 +392,11 @@ https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css" rel
                         </div>
                         <div
                             class="text-center flex flex-col justify-center cursor-pointer  group items-center text-gray-500 splide__slide ">
-                            <img src="/medias/AMADOU.png" class="max-w-full group-hover:hidden ">
-                            <img src="/medias/AMADOU1.png" class="max-w-full hidden group-hover:block ">
-                            <p class='text-black font-bold text-sm mt-5'>AMADOU</p>
-                            <p class='text-sm mt-1'>MARKETING DIGITAL</p>
-                            <p class='text-green-700 text-sm mt-2'>
+                    
+                            <img src="/medias/div1.png" class="max-w-full grayscale transition delay-300 ease-in-out   group-hover:grayscale-0  ">
+                            <p class='text-gray-900 text-2xl'>OUSSEYNOU</p>
+                            <p class=''>ENTREPRENERIAT</p>
+                            <p class='text-green-500'>
                                 <i class="bi bi-facebook mr-3"></i>
                                 <i class="bi bi-twitter mr-3"></i>
                                 <i class="bi bi-youtube"></i>
@@ -395,23 +404,11 @@ https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css" rel
                         </div>
                         <div
                             class="text-center flex flex-col justify-center cursor-pointer  group items-center text-gray-500 splide__slide ">
-                            <img src="/medias/div (3).png" class="max-w-full group-hover:hidden ">
-                            <img src="/medias/div1.png" class="max-w-full hidden group-hover:block ">
-                            <p class='text-black font-bold text-sm mt-5'>OUSSEYNOU</p>
-                            <p class='text-sm mt-1'>ENTREPRENERIAT</p>
-                            <p class='text-green-700 text-sm mt-2'>
-                                <i class="bi bi-facebook mr-3"></i>
-                                <i class="bi bi-twitter mr-3"></i>
-                                <i class="bi bi-youtube"></i>
-                            </p>
-                        </div>
-                        <div
-                            class="text-center flex flex-col justify-center cursor-pointer  group items-center text-gray-500 splide__slide ">
-                            <img src="/medias/DIENABA.png" class="max-w-full group-hover:hidden ">
-                            <img src="/medias/DIENABA1.png" class="max-w-full hidden group-hover:block">
-                            <p class='text-black font-bold text-sm mt-5'>DIENABA</p>
-                            <p class='text-sm mt-1'>DEVELOPPEMENT MOBILE</p>
-                            <p class='text-green-700 text-sm mt-2'>
+                    
+                            <img src="/medias/DIENABA1.png" class="max-w-full grayscale transition delay-300 ease-in-out   group-hover:grayscale-0 ">
+                            <p class='text-gray-900 text-2xl'>DIENABA</p>
+                            <p class=''>DEVELOPPEMENT MOBILE</p>
+                            <p class='text-green-500'>
                                 <i class="bi bi-facebook mr-3"></i>
                                 <i class="bi bi-twitter mr-3"></i>
                                 <i class="bi bi-youtube"></i>
@@ -419,9 +416,9 @@ https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css" rel
                         </div>
                         <div
                             class="splide__slide flex flex-col justify-center cursor-pointer  group items-center  text-gray-500 ">
-                            <img src="/medias/ALKALY.png" class="max-w-full group-hover:hidden">
-                            <img src="/medias/ALKALY1.png" class="max-w-full hidden group-hover:block">
-                            <p class='text-black font-bold text-sm mt-5'>ABOU</p>
+                
+                            <img src="/medias/ALKALY1.png" class="max-w-full grayscale transition delay-300 ease-in-out   group-hover:grayscale-0 ">
+                            <p class='text-gray-900 text-2xl'>ABOU</p>
                             <p>PROGRAMMATION</p>
                             <p class='text-green-700 text-sm mt-3'>
                                 <i class="bi bi-facebook mr-3"></i>
@@ -431,11 +428,11 @@ https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css" rel
                         </div>
                         <div
                             class="text-center flex flex-col justify-center cursor-pointer  group items-center text-gray-500 splide__slide ">
-                            <img src="/medias/MAHMOUD.png" class="max-w-full group-hover:hidden">
-                            <img src="/medias/MAHMOUD1.png" class="max-w-full hidden group-hover:block">
-                            <p class='text-black font-bold text-sm mt-5'>NDIAGA</p>
-                            <p class='text-sm mt-1'>DESIGN</p>
-                            <p class='text-green-700 text-sm mt-2'>
+                    
+                            <img src="/medias/MAHMOUD1.png" class="max-w-full grayscale transition delay-300 ease-in-out   group-hover:grayscale-0 ">
+                            <p class='text-gray-900 text-2xl'>NDIAGA</p>
+                            <p class=''>DESIGN</p>
+                            <p class='text-green-500'>
                                 <i class="bi bi-facebook mr-3"></i>
                                 <i class="bi bi-twitter mr-3"></i>
                                 <i class="bi bi-youtube"></i>
@@ -443,11 +440,11 @@ https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css" rel
                         </div>
                         <div
                             class="text-center flex flex-col justify-center cursor-pointer  group items-center text-gray-500 splide__slide ">
-                            <img src="/medias/FATOU.png" class="max-w-full group-hover:hidden">
-                            <img src="/medias/FATOU1.png" class="max-w-full  hidden group-hover:block">
-                            <p class='text-black font-bold text-sm mt-5'>AMADOU</p>
-                            <p class='text-sm mt-1'>MARKETING DIGITAL</p>
-                            <p class='text-green-700 text-sm mt-2'>
+            
+                            <img src="/medias/FATOU1.png" class="max-w-full grayscale transition delay-300 ease-in-out   group-hover:grayscale-0  ">
+                            <p class='text-gray-900 text-2xl'>AMADOU</p>
+                            <p class=''>MARKETING DIGITAL</p>
+                            <p class='text-green-500'>
                                 <i class="bi bi-facebook mr-3"></i>
                                 <i class="bi bi-twitter mr-3"></i>
                                 <i class="bi bi-youtube"></i>
@@ -455,11 +452,11 @@ https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css" rel
                         </div>
                         <div
                             class="text-center flex flex-col justify-center cursor-pointer  group items-center text-gray-500 splide__slide ">
-                            <img src="/medias/DAOUDA.png" class="max-w-full group-hover:hidden">
-                            <img src="/medias/DAOUDA1.png" class="max-w-full  hidden group-hover:block">
-                            <p class='text-black font-bold text-sm mt-5'>OUSSEYNOU</p>
-                            <p class='text-sm mt-1'>ENTREPRENERIAT</p>
-                            <p class='text-green-700 text-sm mt-2'>
+                
+                            <img src="/medias/DAOUDA1.png" class="max-w-full grayscale transition delay-300 ease-in-out   group-hover:grayscale-0 ">
+                            <p class='text-gray-900 text-2xl'>OUSSEYNOU</p>
+                            <p class=''>ENTREPRENERIAT</p>
+                            <p class='text-green-500'>
                                 <i class="bi bi-facebook mr-3"></i>
                                 <i class="bi bi-twitter mr-3"></i>
                                 <i class="bi bi-youtube"></i>
@@ -467,11 +464,11 @@ https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css" rel
                         </div>
                         <div
                             class="text-center flex flex-col justify-center cursor-pointer group items-center  text-gray-500 splide__slide ">
-                            <img src="/medias/JESUS.png" class="max-w-full group-hover:hidden ">
-                            <img src="/medias/JESUS1.png" class="max-w-full hidden  group-hover:block ">
-                            <p class='text-black font-bold text-sm mt-5'>DIENABA</p>
-                            <p class='text-sm mt-1'>DEVELOPPEMENT MOBILE</p>
-                            <p class='text-green-700 text-sm mt-2'>
+            
+                            <img src="/medias/JESUS1.png" class="max-w-full grayscale transition delay-300 ease-in-out   group-hover:grayscale-0 ">
+                            <p class='text-gray-900 text-2xl'>DIENABA</p>
+                            <p class=''>DEVELOPPEMENT MOBILE</p>
+                            <p class='text-green-500'>
                                 <i class="bi bi-facebook mr-3"></i>
                                 <i class="bi bi-twitter mr-3"></i>
                                 <i class="bi bi-youtube"></i>
@@ -481,10 +478,12 @@ https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css" rel
                     </div>
 
                 </div>
+        
             </section>
         </div>
 
         <div id="section7" class='bg-gray-200 p-11'>
+      
             <div class='text-center flex items-center justify-center flex-col p-11'>
                 <p class=" text-gray-500 text-sm pb-3">OUR PORTFOLIO</p>
                 <h1 class="text-xl font-bold  text-black pb-3">NOS PARTENAIRES</h1>
@@ -492,8 +491,20 @@ https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css" rel
                     quibusdam conre icta</p>
             </div>
 
-            <div class="pt-0 icons grid grid-cols-4 gap-4">
-                <div class="text-center text-gray-500">
+            <div class="md:p-28  icons grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-4 gap-4">
+                <div class="text-center flex justify-center items-center bg-white p-11 text-gray-500">
+                    <img src="/medias/bullseye.png" class="max-w-full  mx-auto h-10 lg:h-auto ">
+                </div>
+                <div class="text-center flex justify-center items-center bg-white p-11 text-gray-500">
+                    <img src="/medias/fastlane.png" class="max-w-full  mx-auto h-10 lg:h-auto ">
+                </div>
+                <div class="text-center flex justify-center items-center bg-white p-11 text-gray-500">
+                    <img src="/medias/norcold.png" class="max-w-full  mx-auto h-10 lg:h-auto ">
+                </div>
+                <div class="text-cente flex justify-center items-center bg-white p-11 text-gray-500">
+                    <img src="/medias/sweety.png" class="max-w-full  mx-auto h-10 lg:h-auto ">
+                </div>
+                <!-- <div class="text-center text-gray-500">
                     <img src="/medias/div (4).png" class="max-w-full">
                 </div>
                 <div class="text-center text-gray-500">
@@ -501,10 +512,7 @@ https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css" rel
                 </div>
                 <div class="text-center text-gray-500">
                     <img src="/medias/div (4).png" class="max-w-full">
-                </div>
-                <div class="text-center text-gray-500">
-                    <img src="/medias/div (4).png" class="max-w-full">
-                </div>
+                </div> -->
             </div>
         </div>
 
@@ -608,6 +616,7 @@ https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css" rel
                     <p class="text-gray-500 text-sm">P: 666 888 000</p>
                     <p class="text-gray-500 text-sm">E: needhelp@maiply.com</p>
                 </div>
+         
                 <div>
                     <p class="text-white mb-5">SOCIAL</p>
                     <p><a href="#" class="text-gray-500 text-sm text-1xl"><i class="bi bi-linkedin mr-2 text-white"></i>

@@ -1,7 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800;900&display=swap');
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
+
+@layer base {
+    * {
+        margin: 0;
+        padding: 0;
+        font-family: 'Montserrat', sans-serif;
+      }
 
 body{
     background-color: #F3F4F6;
@@ -28,7 +36,7 @@ body{
 }
 
 #section11 {
-    background-image: url("../../public/medias/triangle.png");
+    background-image: url("../../public/medias/test2.png");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -53,10 +61,4 @@ body{
 .splide_slide_focus {
     background-color: aqua !important;
 }
-
-
-.shadowblur{
-	box-shadow: inset  0 65px 15px rgba(255, 255, 255, 0.232);
 }
-
-
