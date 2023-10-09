@@ -2,7 +2,8 @@
 
 <head> <meta charset="utf-8"> <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <title>Laravel</title>
+<link rel="shortcut icon" href="/medias/Logo-bakeli.png" type="image/x-icon">
+    <title>Bakeli School of Technology</title>
     <style>
         .active {
             color: brown;
@@ -51,7 +52,7 @@ https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css" rel
                             </a>
                             <div class="flex md:order-2">
                                 <button type="button"
-                                    class="text-amber-400 hover:text-white border border-amber-400 hover:bg-amber-500 focus:ring-4 focus:outline-none focus:ring-amber-300 font-medium  text-sm px-5 py-2.5 text-center mr-2  dark:border-amber-300 dark:text-amber-300 dark:hover:text-white dark:hover:bg-amber-400 dark:focus:ring-amber-900">Nous
+                                    class="text-amber-400 hover:text-white border border-amber-400 hover:bg-amber-500 focus:ring-4 focus:outline-none focus:ring-amber-300 font-medium  text-sm px-5 py-2.5 text-center mr-2  dark:border-amber-300 dark:text-amber-300  dark:hover:bg-amber-400 dark:focus:ring-amber-900">Nous
                                     rejoindre</button>
                                 <button data-collapse-toggle="navbar-cta" type="button"
                                     class="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600"
@@ -76,7 +77,7 @@ https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css" rel
                                     <li>
                                         <button id="dropdownNavbarLink" data-dropdown-toggle="dropdownNavbar"
                                             class="flex items-center justify-between w-full py-2 pl-3 pr-4  rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-yellow-300 md:p-0 md:w-auto  md:dark:hover:text-yellow-300  "
-                                            :class="{  'text-gray-800 md:text-white ': !atTop, '  md:text-gray-800 ': atTop }">Programmes
+                                            :class="{  'text-gray-800 md:text-white ': !atTop, '  md:text-gray-800 ': atTop }">Nos Programmes
                                             <svg class="w-2.5 h-2.5 ml-2.5" aria-hidden="true"
                                                 xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 10 6">
                                                 <path stroke="currentColor" stroke-linecap="round"
@@ -85,61 +86,50 @@ https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css" rel
                                         <!-- Dropdown menu -->
                                         <div id="dropdownNavbar"
                                             class="z-10 hidden font-normal bg-white divide-y divide-gray-100 rounded-lg shadow w-44 dark:bg-gray-700 dark:divide-gray-600">
-                                            <ul class="py-2 text-sm text-gray-700 dark:text-gray-400"
+                                            <ul class="py-2 text-sm text-greenbakeli bg-white rounded"
                                                 aria-labelledby="dropdownLargeButton">
                                                 <li>
-                                                    <a href="#"
-                                                        class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">Programmes</a>
+                                                    <a href="#"100
+                                                        class="block px-4 py-2 hover:bg-greenbakeli hover:text-white">Programmes</a>
                                                 </li>
                                                 <li>
                                                     <a href="#"
-                                                        class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">Settings</a>
+                                                        class="block px-4 py-2 hover:bg-greenbakeli hover:text-white">Settings</a>
                                                 </li>
                                                 <li>
                                                     <a href="#"
-                                                        class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">Earnings</a>
+                                                        class="block px-4 py-2 hover:bg-greenbakeli hover:text-white">Earnings</a>
                                                 </li>
                                             </ul>
-                                            <div class="py-1">
-                                                <a href="#"
-                                                    class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 dark:hover:bg-gray-600 dark:text-gray-400 dark:hover:text-white">Sign
-                                                    out</a>
-                                            </div>
                                         </div>
                                     </li>
                                     <li>
                                         <button id="dropdownNavbarLink2" data-dropdown-toggle="dropdownNavbar2"
-                                            class="flex items-center justify-between w-full py-2 pl-3 pr-4  rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-yellow-300 md:p-0 md:w-auto  md:dark:hover:text-yellow-300  dark:border-gray-700 dark:hover:bg-gray-700 md:dark:hover:bg-transparent"
-                                            :class="{  'text-gray-800 md:text-white ': !atTop, '  md:text-gray-800 ': atTop }">Nos
-                                            campus <svg class="w-2.5 h-2.5 ml-2.5" aria-hidden="true"
+                                            class="flex items-center justify-between w-full py-2 pl-3 pr-4  rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-yellow-300 md:p-0 md:w-auto  md:dark:hover:text-yellow-300  "
+                                            :class="{  'text-gray-800 md:text-white ': !atTop, '  md:text-gray-800 ': atTop }">Nos Campus
+                                            <svg class="w-2.5 h-2.5 ml-2.5" aria-hidden="true"
                                                 xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 10 6">
                                                 <path stroke="currentColor" stroke-linecap="round"
                                                     stroke-linejoin="round" stroke-width="2" d="m1 1 4 4 4-4" />
-                                            </svg>
-                                        </button>
+                                            </svg></button>
                                         <!-- Dropdown menu -->
                                         <div id="dropdownNavbar2"
                                             class="z-10 hidden font-normal bg-white divide-y divide-gray-100 rounded-lg shadow w-44 dark:bg-gray-700 dark:divide-gray-600">
-                                            <ul class="py-2 text-sm text-gray-700 dark:text-gray-400"
+                                            <ul class="py-2 text-sm text-greenbakeli rounded bg-white"
                                                 aria-labelledby="dropdownLargeButton">
                                                 <li>
-                                                    <a href="#"
-                                                        class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">Campus</a>
+                                                    <a href="#"100
+                                                        class="block px-4 py-2 hover:bg-greenbakeli hover:text-white">Campus</a>
                                                 </li>
                                                 <li>
                                                     <a href="#"
-                                                        class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">Settings</a>
+                                                        class="block px-4 py-2 hover:bg-greenbakeli hover:text-white">Settings</a>
                                                 </li>
                                                 <li>
                                                     <a href="#"
-                                                        class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">Earnings</a>
+                                                        class="block px-4 py-2 hover:bg-greenbakeli hover:text-white">Earnings</a>
                                                 </li>
                                             </ul>
-                                            <div class="py-1">
-                                                <a href="#"
-                                                    class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 dark:hover:bg-gray-600 dark:text-gray-400 dark:hover:text-white">Sign
-                                                    out</a>
-                                            </div>
                                         </div>
                                     </li>
                                     <li>
@@ -202,12 +192,12 @@ https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css" rel
             <div class="grid grid-cols-1  md:grid-cols-2 content-center  gap-2 p-11 relative">
                 <div class=" md:my-auto  ">
                     <p class=" text-black pb-3">BIENVENUE</p>
-                    <h1 class="text-2xl font-bold text-black pb-5">BAKELI TECHNOLOGY OF SCHOOL</h1>
+                    <h1 class="text-xl font-bold text-black pb-5">BAKELI TECHNOLOGY OF SCHOOL</h1>
                     <p class=" w-70 text-gray-500 text-xs lg:text-lg mb-5  dark:text-gray-400">We are committed to providing
                         our customers with exceptional service while offering our employees the best training. Lorem
                         Ipsum is simply dummy text of the printing and typesetting industry has been the industry’s
                         standard dummy text ever since the 1500s.</p>
-                        <x-button title="S'INSCRIRE"></x-button>
+                        <x-button title="VOIR PLUS"></x-button>
                 </div>
 
                 <div>
@@ -236,7 +226,7 @@ https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css" rel
                             <input type="mail" id=""
                                 class="w-full h-10 border-gray-100 text-black text-sm focus:ring-yellow-500 focus:border-yellow-500 block p-2.5 bg-gray-300"
                                 placeholder="Enter your mail..." required>
-                                <x-button title="S'INSCRIRE"></x-button>
+                                <x-button title="REJOINDRE"></x-button>
                         </div>
                     </div>
                 </div>
@@ -346,8 +336,7 @@ https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css" rel
             <div class='text-center bg-gray-100 flex items-center justify-center flex-col p-11'>
                 <p class=" text-gray-500 text-sm pb-3">EQUIPES</p>
                 <h1 class="text-xl font-bold text-black pb-3">COACHS</h1>
-                <p class="w-80 text-gray-500 md:text-lg dark:text-gray-400">Lorem ipsum dolor sit olores
-                    quibusdam conre icta</p>
+                <p class="w-80 text-gray-500 md:text-lg dark:text-gray-400">We are committed to providing our customers with exceptional service while offering our employees the best training.</p>
             </div>
 
             <section class="splide pt-0 p-11 bg-black" aria-labelledby="carousel-heading">
@@ -421,7 +410,7 @@ https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css" rel
                             <img src="/medias/ALKALY1.png" class="max-w-full grayscale transition delay-300 ease-in-out   group-hover:grayscale-0 ">
                             <p class='text-black mt-5 text-sm font-bold'>ABOU</p>
                             <p class='text-sm'>PROGRAMMATION</p>
-                            <p class='text-greenbakeli text-sm text-sm mt-3'>
+                            <p class='text-greenbakeli text-sm mt-3'>
                                 <i class="bi bi-facebook mr-3"></i>
                                 <i class="bi bi-twitter mr-3"></i>
                                 <i class="bi bi-youtube"></i>
@@ -488,8 +477,7 @@ https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css" rel
             <div class='text-center flex items-center justify-center flex-col p-11'>
                 <p class=" text-gray-500 text-sm pb-3">OUR PORTFOLIO</p>
                 <h1 class="text-xl font-bold  text-black pb-3">NOS PARTENAIRES</h1>
-                <p class="w-80 text-gray-500 md:text-lg dark:text-gray-400">Lorem ipsum dolor sit olores
-                    quibusdam conre icta</p>
+                <p class="w-80 text-gray-500 md:text-lg dark:text-gray-400">We are committed to providing our customers with exceptional service while offering our employees the best training.</p>
             </div>
 
             <div class="md:p-28  icons grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-4 gap-4">
@@ -522,8 +510,7 @@ https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css" rel
                     </span>
                 </h1>
                 <p class="w-full text-sm md:w-1/3 text-gray-500 md:text-lg dark:text-gray-400">
-                    Praesentium ipsam exercitationem consequatur dolorum Praesentium ipsam exercitationem consequatur
-                    dolorum.</p>
+                We are committed to providing our customers with exceptional service while offering our employees the best training.</p>
             </div>
         </div>
 
@@ -531,8 +518,7 @@ https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css" rel
             <div class='text-center flex items-center justify-center flex-col p-11'>
                 <p class=" text-gray-500 text-sm pb-3">OUR NEWS & ARTICLES </p>
                 <h1 class="text-xl font-bold text-black pb-3">NOS DERNIERS ARTICLES</h1>
-                <p class="w-80 text-gray-500 md:text-lg dark:text-gray-400">Lorem ipsum dolor sit olores
-                    quibusdam conre icta</p>
+                <p class="w-80 text-gray-500 md:text-lg dark:text-gray-400">We are committed to providing our customers with exceptional service while offering our employees the best training.</p>
             </div>
             <div class="bg-gray-100 md:p-28 md:pt-0 icons grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
 
@@ -542,11 +528,10 @@ https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css" rel
                     </a>
                     <div class="p-4">
                         <a href="#">
-                            <h6 class="mb-3 font-bold tracking-tight text-greenbakeli mt-6">26 Nov</h5>
+                            <h6 class="mb-3 font-bold text-greenbakeli mt-6">24 Nov</h5>
                         </a>
                         <a href="#">
-                            <h5 class="mb-5 text-2xl font-bold tracking-tight text-black">Noteworthy technology
-                                acquisitions 2021</h5>
+                            <h5 class="mb-5 text-xl font-bold text-black">BASIC RULES OF RUNNING WEB AGENCY BUSINESS</h5>
                         </a>
                        <x-button2 />
                     </div>
@@ -557,11 +542,10 @@ https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css" rel
                     </a>
                     <div class="p-4">
                         <a href="#">
-                            <h6 class="mb-3 font-bold tracking-tight text-greenbakeli mt-6">26 Nov</h5>
+                            <h6 class="mb-3 font-bold text-greenbakeli mt-6">20 Nov</h5>
                         </a>
                         <a href="#">
-                            <h5 class="mb-5 text-2xl font-bold tracking-tight text-black">Noteworthy technology
-                                acquisitions 2021</h5>
+                            <h5 class="mb-5 text-xl font-bold text-black">BECOME THE BEST SALE MARKETER</h5>
                         </a>
                        <x-button2 />
                     </div>
@@ -572,11 +556,10 @@ https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css" rel
                     </a>
                     <div class="p-4">
                         <a href="#">
-                            <h6 class="mb-3 font-bold tracking-tight text-greenbakeli mt-6">26 Nov</h5>
+                            <h6 class="mb-3 font-bold text-greenbakeli mt-6">16 Nov</h5>
                         </a>
                         <a href="#">
-                            <h5 class="mb-5 text-2xl font-bold tracking-tight text-black">Noteworthy technology
-                                acquisitions 2021</h5>
+                            <h5 class="mb-5 text-xl font-bold text-black">INTRODUCING LATEST MOPALY FEATURES</h5>
                         </a>
                        <x-button2 />
                     </div>
@@ -598,9 +581,8 @@ https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css" rel
                         <img src="/medias/Logo-bakeli.png" class="h-12 mr-3" alt="Flowbite Logo" />
 
                     </a>
-                    <p class="md:w-80 text-gray-500 md:text-lg dark:text-gray-400 text-sm">Lorem ipsum dolor sit
-                        olores quibusdam conre icta Lorem ipsum dolor sit olores quibusdam conre icta</p>
-                </div>
+                    <p class="md:w-80 text-gray-500 text-sm">
+                    Bakeli est une école de formation professionnelle dans les nouvelles technologies créer par Volkeno. Elle a formé + de 6000 étudiants et professionnels aux métiers des nouvelles technologies et du digital.                </div>
                 <div>
                     <p class="text-white mb-5">CONTACT</p>
                     <p class="text-gray-500 mb-5 text-sm">66 Brooklyn Street, <br> New York United Stated
@@ -621,7 +603,6 @@ https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css" rel
             </div>
 
         </footer>
-
 
 
 
