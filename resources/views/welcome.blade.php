@@ -169,7 +169,7 @@ https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css" rel
 
         <div class="p-11 bg-black">
             <div class="section2 text-center flex items-center justify-center flex-col md:p-11">
-                <p class=" text-green-700 pb-3">Filieres</p>
+                <p class=" text-greenbakeli pb-3">FILIERES</p>
                 <h1 class="text-xl  text-white pb-5">DOMAINES DE FORMATIONS</h1>
                 <p class="w-70 text-gray-500 md:text-lg dark:text-gray-400">Praesentium ipsam
                     exercitationem consequatur dolorum.</p>
@@ -332,7 +332,7 @@ https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css" rel
                         <p class=" pb-5 text-gray-500 md:text-lg dark:text-gray-400">Lorem fficiis ipsa,
                             a et facilis maiores amet quasi, voluptas ratione delectus recusandae totam.</p>
                         <button type="button"
-                            class="py-2.5 px-5 mr-2 mb-2 text-sm font-medium text-white focus:outline-none bg-green-700  border-orange-500 border-r-4 hover:bg-green-700 hover:text-white-700 focus:z-10 focus:ring-4 focus:ring-gray-200 dark:hover:text-white dark:hover:bg-green-700">LEARN
+                            class="py-2.5 px-5 mr-2 mb-2 text-sm font-medium text-white focus:outline-none bg-greenbakeli  border-orange-500 border-r-4 hover:bg-greenbakeli hover:text-white-700 focus:z-10 focus:ring-4 focus:ring-gray-200 dark:hover:text-white dark:hover:bg-greenbakeli">LEARN
                             MORE</button>
                     </div>
                 </div>
@@ -361,7 +361,7 @@ https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css" rel
                             <img src="/medias/ABOU1.png" class="max-w-full grayscale transition delay-300 ease-in-out   group-hover:grayscale-0 ">
                             <p class='text-black mt-5 text-sm font-bold'>ABOU</p>
                             <p class='text-sm'>PROGRAMMATION</p>
-                            <p class='text-green-500 text-sm'>
+                            <p class='text-greenbakeli text-sm'>
                                 <i class="bi bi-facebook mr-3"></i>
                                 <i class="bi bi-twitter mr-3"></i>
                                 <i class="bi bi-youtube"></i>
@@ -373,7 +373,7 @@ https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css" rel
                             <img src="/medias/NDIAGA1.png" class="max-w-full grayscale transition delay-300 ease-in-out   group-hover:grayscale-0      ">
                             <p class='text-black mt-5 text-sm font-bold'>NDIAGA</p>
                             <p class='text-sm' class=''>DESIGNER</p>
-                            <p class='text-green-500 text-sm'>
+                            <p class='text-greenbakeli text-sm'>
                                 <i class="bi bi-facebook mr-3"></i>
                                 <i class="bi bi-twitter mr-3"></i>
                                 <i class="bi bi-youtube"></i>
@@ -385,7 +385,7 @@ https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css" rel
                             <img src="/medias/AMADOU1.png" class="max-w-full grayscale transition delay-300 ease-in-out   group-hover:grayscale-0  ">
                             <p class='text-black mt-5 text-sm font-bold'>AMADOU</p>
                             <p class='text-sm' class=''>MARKETING DIGITAL</p>
-                            <p class='text-green-500 text-sm'>
+                            <p class='text-greenbakeli text-sm'>
                                 <i class="bi bi-facebook mr-3"></i>
                                 <i class="bi bi-twitter mr-3"></i>
                                 <i class="bi bi-youtube"></i>
@@ -397,7 +397,7 @@ https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css" rel
                             <img src="/medias/div1.png" class="max-w-full grayscale transition delay-300 ease-in-out   group-hover:grayscale-0  ">
                             <p class='text-black mt-5 text-sm font-bold'>OUSSEYNOU</p>
                             <p class='text-sm' class=''>ENTREPRENERIAT</p>
-                            <p class='text-green-500 text-sm'>
+                            <p class='text-greenbakeli text-sm'>
                                 <i class="bi bi-facebook mr-3"></i>
                                 <i class="bi bi-twitter mr-3"></i>
                                 <i class="bi bi-youtube"></i>
@@ -409,7 +409,7 @@ https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css" rel
                             <img src="/medias/DIENABA1.png" class="max-w-full grayscale transition delay-300 ease-in-out   group-hover:grayscale-0 ">
                             <p class='text-black mt-5 text-sm font-bold'>DIENABA</p>
                             <p class='text-sm' class=''>DEVELOPPEMENT MOBILE</p>
-                            <p class='text-green-500 text-sm'>
+                            <p class='text-greenbakeli text-sm'>
                                 <i class="bi bi-facebook mr-3"></i>
                                 <i class="bi bi-twitter mr-3"></i>
                                 <i class="bi bi-youtube"></i>
@@ -421,7 +421,7 @@ https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css" rel
                             <img src="/medias/ALKALY1.png" class="max-w-full grayscale transition delay-300 ease-in-out   group-hover:grayscale-0 ">
                             <p class='text-black mt-5 text-sm font-bold'>ABOU</p>
                             <p class='text-sm'>PROGRAMMATION</p>
-                            <p class='text-green-700 text-sm text-sm mt-3'>
+                            <p class='text-greenbakeli text-sm text-sm mt-3'>
                                 <i class="bi bi-facebook mr-3"></i>
                                 <i class="bi bi-twitter mr-3"></i>
                                 <i class="bi bi-youtube"></i>
@@ -433,7 +433,7 @@ https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css" rel
                             <img src="/medias/MAHMOUD1.png" class="max-w-full grayscale transition delay-300 ease-in-out   group-hover:grayscale-0 ">
                             <p class='text-black mt-5 text-sm font-bold'>NDIAGA</p>
                             <p class='text-sm' class=''>DESIGN</p>
-                            <p class='text-green-500 text-sm'>
+                            <p class='text-greenbakeli text-sm'>
                                 <i class="bi bi-facebook mr-3"></i>
                                 <i class="bi bi-twitter mr-3"></i>
                                 <i class="bi bi-youtube"></i>
@@ -445,7 +445,7 @@ https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css" rel
                             <img src="/medias/FATOU1.png" class="max-w-full grayscale transition delay-300 ease-in-out   group-hover:grayscale-0  ">
                             <p class='text-black mt-5 text-sm font-bold'>AMADOU</p>
                             <p class='text-sm' class=''>MARKETING DIGITAL</p>
-                            <p class='text-green-500 text-sm'>
+                            <p class='text-greenbakeli text-sm'>
                                 <i class="bi bi-facebook mr-3"></i>
                                 <i class="bi bi-twitter mr-3"></i>
                                 <i class="bi bi-youtube"></i>
@@ -457,7 +457,7 @@ https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css" rel
                             <img src="/medias/DAOUDA1.png" class="max-w-full grayscale transition delay-300 ease-in-out   group-hover:grayscale-0 ">
                             <p class='text-black mt-5 text-sm font-bold'>OUSSEYNOU</p>
                             <p class='text-sm' class=''>ENTREPRENERIAT</p>
-                            <p class='text-green-500 text-sm'>
+                            <p class='text-greenbakeli text-sm'>
                                 <i class="bi bi-facebook mr-3"></i>
                                 <i class="bi bi-twitter mr-3"></i>
                                 <i class="bi bi-youtube"></i>
@@ -469,7 +469,7 @@ https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css" rel
                             <img src="/medias/JESUS1.png" class="max-w-full grayscale transition delay-300 ease-in-out   group-hover:grayscale-0 ">
                             <p class='text-black mt-5 text-sm font-bold'>DIENABA</p>
                             <p class='text-sm' class=''>DEVELOPPEMENT MOBILE</p>
-                            <p class='text-green-500 text-sm'>
+                            <p class='text-greenbakeli text-sm'>
                                 <i class="bi bi-facebook mr-3"></i>
                                 <i class="bi bi-twitter mr-3"></i>
                                 <i class="bi bi-youtube"></i>
@@ -512,12 +512,12 @@ https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css" rel
         <div id="section22" class="md:p-11 py-11">
             <div class="section2 text-center flex items-center justify-center flex-col md:p-11">
 
-                    <div class="p-2 px-3  bg-green-700 mb-5">
+                    <div class="p-2 px-3  bg-greenbakeli mb-5">
                         <i class="bi bi-people-fill text-white text-4xl mb-5"></i>
                     </div>
                 <h1 class="text-2xl w-full font-bold md:w-1/2 text-white pb-5">
                     GREAT THINGS IN BUSINESS ARE NEVER DONE BY ONE PERSON.
-                    <span class='text-green-700'>
+                    <span class='text-greenbakeli'>
                         THEY'RE DONE BY A TEAM OF PEOPLE
                     </span>
                 </h1>
@@ -542,7 +542,7 @@ https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css" rel
                     </a>
                     <div class="p-4">
                         <a href="#">
-                            <h6 class="mb-3 font-bold tracking-tight text-green-700 mt-6">26 Nov</h5>
+                            <h6 class="mb-3 font-bold tracking-tight text-greenbakeli mt-6">26 Nov</h5>
                         </a>
                         <a href="#">
                             <h5 class="mb-5 text-2xl font-bold tracking-tight text-black">Noteworthy technology
@@ -557,7 +557,7 @@ https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css" rel
                     </a>
                     <div class="p-4">
                         <a href="#">
-                            <h6 class="mb-3 font-bold tracking-tight text-green-700 mt-6">26 Nov</h5>
+                            <h6 class="mb-3 font-bold tracking-tight text-greenbakeli mt-6">26 Nov</h5>
                         </a>
                         <a href="#">
                             <h5 class="mb-5 text-2xl font-bold tracking-tight text-black">Noteworthy technology
@@ -572,7 +572,7 @@ https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css" rel
                     </a>
                     <div class="p-4">
                         <a href="#">
-                            <h6 class="mb-3 font-bold tracking-tight text-green-700 mt-6">26 Nov</h5>
+                            <h6 class="mb-3 font-bold tracking-tight text-greenbakeli mt-6">26 Nov</h5>
                         </a>
                         <a href="#">
                             <h5 class="mb-5 text-2xl font-bold tracking-tight text-black">Noteworthy technology
@@ -587,14 +587,14 @@ https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css" rel
             <div class="flex justify-between gap-4 flex-wrap p-16">
                 <p class=" text-2xl text-white md:ml-20">LET'S GET YOUR PROJECT START!</p>
                 <button type="button"
-                    class="py-2.5 px-5 mr-2 mb-2 text-sm font-medium text-white focus:outline-none bg-green-700  border-white border-r-4 hover:bg-green-700 hover:text-white-700">CONTACT-US</button>
+                    class="py-2.5 px-5 mr-2 mb-2 text-sm font-medium text-white focus:outline-none bg-greenbakeli  border-white border-r-4 hover:bg-greenbakeli hover:text-white-700">CONTACT-US</button>
             </div>
         </div>
 
         <footer class="bg-black p-11 ">
             <div class="flex flex-col md:flex-row md:justify-around flex-wrap gap-4">
                 <div>
-                    <a href="https://flowbite.com/" class="flex items-center">
+                    <a href="https://flowbite.com/" class="mb-5 flex items-center">
                         <img src="/medias/Logo-bakeli.png" class="h-12 mr-3" alt="Flowbite Logo" />
 
                     </a>
