@@ -585,7 +585,7 @@ https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css" rel
         </div>
         <div id="section11" class="">
             <div class="flex justify-between gap-4 flex-wrap p-16">
-                <p class=" text-2xl text-white md:ml-20">LET'S GET YOUR PROJECT START!</p>
+                <p class=" text-xl font-semibold text-white md:ml-20">LET'S GET YOUR PROJECT START!</p>
                 <button type="button"
                     class="py-2.5 px-5 mr-2 mb-2 text-sm font-medium text-white focus:outline-none bg-green-700  border-white border-r-4 hover:bg-green-700 hover:text-white-700">CONTACT-US</button>
             </div>
